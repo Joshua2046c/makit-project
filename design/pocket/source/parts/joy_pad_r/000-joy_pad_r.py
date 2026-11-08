@@ -1,0 +1,7 @@
+outer=param("joy_pad_r_outer_mm",2.6)
+inner=param("joy_pad_r_inner_mm",1.7)
+height=param("joy_pad_r_height_mm",0.4)
+pad=Cylinder(outer/2,height,align=(Align.CENTER,Align.CENTER,Align.MIN))-Cylinder(inner/2,height,align=(Align.CENTER,Align.CENTER,Align.MIN))
+pad.color=srgb("#262829")
+publish("joy_pad_r",pad,"摇杆耳位软垫",material="tpu")
+fit("joy_pad_r","joystick",kind="compliant",budget_mm=0.15,reason="0.4mm TPU washer compressed into 0.3mm retainer gap on the flat mounting ear")

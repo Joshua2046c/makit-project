@@ -1,0 +1,1 @@
+publish("mainboard", asset("design/pocket/source/assets/53d7209ca18c5d4aa690723ef7e639b336ca0cfdc735c3f48faaba731ad1a133.step"), "T5 Pocket 主板 · 机械参考")

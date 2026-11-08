@@ -1,0 +1,13 @@
+{
+  "formatVersion": 4,
+  "name": "单词机",
+  "title": "Cheese Word Machine",
+  "summary": "Cheese Word Machine is a portable vocabulary learning device. It adopts scientific memory scheduling with native pronunciation, helping you memorize English words anytime and anywhere.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Miles"
+    }
+  ],
+  "artifacts": "rebuild"
+}

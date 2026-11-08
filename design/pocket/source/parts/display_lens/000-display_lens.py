@@ -1,0 +1,5 @@
+d=part("front_panel")
+lens_radius=param("lens_corner_radius_mm",2.0)
+lens=extrude(RectangleRounded(d.lens_w,d.lens_h,lens_radius),d.lens_t)
+lens.color=srgb("#c3ccc1",0.18)
+publish("display_lens",lens,"透明保护镜片",material="acrylic")

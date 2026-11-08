@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "file": "image.jpg",
+      "kind": "photo"
+    },
+    {
+      "file": "image-2.jpg",
+      "kind": "photo"
+    }
+  ]
+}

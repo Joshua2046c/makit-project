@@ -1,0 +1,7 @@
+outer_d=param("speaker_seal_outer_diameter_mm",12.0)
+inner_d=param("speaker_seal_bore_diameter_mm",8.0)
+height=param("speaker_seal_free_height_mm",0.7)
+seal=Cylinder(outer_d/2,height,align=(Align.CENTER,Align.CENTER,Align.MIN))-Cylinder(inner_d/2,height,align=(Align.CENTER,Align.CENTER,Align.MIN))
+seal.color=srgb("#262829")
+publish("speaker_seal",seal,"扬声器声道密封圈",material="tpu")
+fit("speaker_seal","mainboard",kind="compliant",budget_mm=0.25,reason="Soft 0.7mm acoustic ring compressed onto speaker rim; central 8mm bore stays open")

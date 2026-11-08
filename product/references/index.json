@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "file": "extract_vendor_step.py",
+      "sha256": "4ed25d0fa02d54e0c74ebd1f96816058b6fcbec4bdeca999ba4b039624f29e89",
+      "bytes": 3594,
+      "addedAt": "2026-11-07T20:13:08.228Z",
+      "share": false
+    },
+    {
+      "file": "key-ring-reference/dimensions.webp",
+      "sha256": "9983d79e498621cf9a00807eadacb110032a5b0f5aec4880c8434a011871927c",
+      "bytes": 20306,
+      "addedAt": "2026-11-08T09:05:12.965Z",
+      "share": false
+    },
+    {
+      "file": "key-ring-reference/photo-1.webp",
+      "sha256": "234f9590f9bf37fbc396cff94a2c6d6558f39a36d0f14b6c8dff571157a27f9e",
+      "bytes": 38738,
+      "addedAt": "2026-11-08T09:05:12.966Z",
+      "share": false
+    },
+    {
+      "file": "key-ring-reference/photo-2.webp",
+      "sha256": "1321cdb0d66991625351f4a7cd4da537daa08d5a99059034c4ba744cd0e03f65",
+      "bytes": 49178,
+      "addedAt": "2026-11-08T09:05:12.966Z",
+      "share": false
+    },
+    {
+      "file": "key-ring-reference/reference-record.json",
+      "sha256": "ddcdac6c41981118ad8e6f81a457fd170956e8f30cda7ced4cd7e5b546eb7c06",
+      "bytes": 677,
+      "addedAt": "2026-11-08T09:10:44.739Z",
+      "share": false
+    },
+    {
+      "file": "key-ring-reference/reference.png",
+      "sha256": "c6b4a35190fd00f48d4e7658f8c9015c047d8ebe79d9f8ea57e4fb63035aa8c1",
+      "bytes": 129083,
+      "addedAt": "2026-11-08T09:05:12.967Z",
+      "share": false
+    },
+    {
+      "file": "key-ring-reference/section-analysis.png",
+      "sha256": "afbc9dbd00fa661b7738d5b297fdeb40569713803b3271b15cc0e9934deac0ca",
+      "bytes": 195532,
+      "addedAt": "2026-11-08T09:07:47.693Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261107T193916006Z-1-ishot-2026-11-08-3-35-24.png",
+      "sha256": "205128cc1a038eba069e51798e7c95c780960d6dbf009454a0b566b50075f959",
+      "bytes": 410871,
+      "addedAt": "2026-11-07T19:39:16.205Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261107T193916006Z-2-ishot-2026-11-08-3-37-00.png",
+      "sha256": "3fb757d5a3c8b4d9641f5bfcc4cc4be7260e070b7aada393ccaaafe8963d8362",
+      "bytes": 209676,
+      "addedAt": "2026-11-07T19:39:16.207Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261107T193916006Z-3-ishot-2026-11-08-3-37-53.png",
+      "sha256": "cec606edb472d0de64ef0f12716bc207a26a0e7375e6eabc9752c3a5cfbdde1d",
+      "bytes": 309647,
+      "addedAt": "2026-11-07T19:39:16.208Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261107T193916006Z-4-ishot-2026-11-08-3-37-42.png",
+      "sha256": "a1a9b4486b1c27c58922e6656994cba7bb333cb9f86f50588180d470a3d0c1dc",
+      "bytes": 385951,
+      "addedAt": "2026-11-07T19:39:16.210Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261107T193916006Z-5-ishot-2026-11-08-3-37-37.png",
+      "sha256": "18bcc1fd5f88ca83f3eaff5acc6233d142d79d7a55cb8c19dbbbf2aee5eda176",
+      "bytes": 296392,
+      "addedAt": "2026-11-07T19:39:16.212Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261107T193916006Z-6-ishot-2026-11-08-3-37-20.png",
+      "sha256": "68ed6b2c86c8d78e6e5c0681371e0618ea53f4551a4ce08f85a520683fbe86e3",
+      "bytes": 428639,
+      "addedAt": "2026-11-07T19:39:16.214Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261107T193916006Z-7-ishot-2026-11-08-3-37-15.png",
+      "sha256": "3ac10094ffa520f64a8dfe51939252fa6b835235b3668a6ff5fe2467d0635d8f",
+      "bytes": 349767,
+      "addedAt": "2026-11-07T19:39:16.218Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261107T193916006Z-8-ishot-2026-11-08-3-37-05.png",
+      "sha256": "de63f3dbefadb7e649fc46c2ea4108d26a86b36b2f9f0fbe6e761e01a733c363",
+      "bytes": 349903,
+      "addedAt": "2026-11-07T19:39:16.220Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261107T201308487Z-1-ishot-2026-11-08-3-39-36.png",
+      "sha256": "c0db97b8c4bbb5cb299304ef84be397a93305d5516f561e73a7ccab961f345b3",
+      "bytes": 580083,
+      "addedAt": "2026-11-07T20:13:14.385Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261107T201308487Z-2-ishot-2026-11-08-3-39-32.png",
+      "sha256": "d0efb5c2062c1860b1fa4a2434015fb96b60c60a7b742b0601946d7a4896f33d",
+      "bytes": 380382,
+      "addedAt": "2026-11-07T20:13:14.387Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261107T211949610Z-1-mark-1.png",
+      "sha256": "5e94a7f7c2e258aae0ccf580eb44734e26860a76c678c21453c7059fa55a7762",
+      "bytes": 342339,
+      "addedAt": "2026-11-07T21:31:59.509Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261107T211949610Z-2-mark-2.png",
+      "sha256": "c89467519ed219cea78361031c48c5445e7676885d39a98b34820223cdc4d323",
+      "bytes": 247706,
+      "addedAt": "2026-11-07T21:31:59.510Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261107T211949610Z-3-mark-3.png",
+      "sha256": "078e3237808c22ee86c347fffb70e804d80a955ba07ba17c0c6b4ae3b28df20f",
+      "bytes": 263272,
+      "addedAt": "2026-11-07T21:31:59.511Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261107T230803177Z-1-mark-1.png",
+      "sha256": "4f294053589d601c546677dd8d5c3d3322a87b4a8e0223b7d8ddd82f1712f5a2",
+      "bytes": 284455,
+      "addedAt": "2026-11-07T23:14:28.894Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261107T230803177Z-2-mark-2.png",
+      "sha256": "3c425f095be8c8a2434a236508e13cace025f4ee41e940970d01cd81701df98a",
+      "bytes": 694125,
+      "addedAt": "2026-11-07T23:14:28.898Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261107T230803177Z-3-ishot-2026-11-08-7-07-21.png",
+      "sha256": "fbcd54998b6693f94699061c960ecde1f0f37f5825a16a73bbc26fd911e631d2",
+      "bytes": 202952,
+      "addedAt": "2026-11-07T23:14:28.899Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261107T230803177Z-4-ishot-2026-11-08-7-07-31.png",
+      "sha256": "9d642ff69988cc37b7aaac98a51203d5bd160f6293595f4b9181d070818be540",
+      "bytes": 358778,
+      "addedAt": "2026-11-07T23:14:28.901Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261107T230803177Z-5-ishot-2026-11-08-7-07-43.png",
+      "sha256": "48be6328ca15e958ff8aba048fe77704b8d6c69a425d9faafae7d3f280d0f918",
+      "bytes": 155524,
+      "addedAt": "2026-11-07T23:14:28.902Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261107T235220701Z-1-mark-1.png",
+      "sha256": "0c32766b129254b3106e32e6e9c3b019e8aca5ce1efa62093d4b08544855e78a",
+      "bytes": 58750,
+      "addedAt": "2026-11-07T23:52:26.177Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261107T235805869Z-1-mark-1.png",
+      "sha256": "929d0dd0e51ac1f306b7da53b28f1ce717f62e37e7f0bd2884bd12eab75ef38f",
+      "bytes": 314585,
+      "addedAt": "2026-11-07T23:58:09.590Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261108T062350588Z-1-mark-1.png",
+      "sha256": "7283fa153b90411a0c32deea07d34d0f808f23e7504a9a773b07d5c20d547601",
+      "bytes": 171847,
+      "addedAt": "2026-11-08T06:24:01.452Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261108T062350588Z-2-mark-2.png",
+      "sha256": "c24a13725ed0e4b42018f132496f94adde4ee6ae13af95e2188923b0b6e9f89f",
+      "bytes": 172746,
+      "addedAt": "2026-11-08T06:24:01.452Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261108T062350588Z-3-mark-3.png",
+      "sha256": "0d41f2ef9359b6cb513477d6115e6111885592a2d9f82fb6aa610491f28f56e2",
+      "bytes": 396028,
+      "addedAt": "2026-11-08T06:24:01.453Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261108T062350588Z-4-mark-4.png",
+      "sha256": "58969eec2e64566527baec0711fa2f7d05cc72482891592917f065f8382db184",
+      "bytes": 394525,
+      "addedAt": "2026-11-08T06:24:01.453Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261108T062350588Z-5-mark-5.png",
+      "sha256": "d40637c76286d937752710688a79c90039db6f0f5544481edb75b8b0b1586c8e",
+      "bytes": 163296,
+      "addedAt": "2026-11-08T06:24:01.454Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261108T070006118Z-1-mark-1.png",
+      "sha256": "0b4f233a6930a8b41731dbf38eacb0be10f95721658872a281b5c0e7dd4bfc7c",
+      "bytes": 824882,
+      "addedAt": "2026-11-08T07:00:14.201Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261108T071520137Z-1-mark-1.png",
+      "sha256": "940d2437cfdd99644493ef0c9b8a079e20239635e5c2941b04603a1300ab8a65",
+      "bytes": 102870,
+      "addedAt": "2026-11-08T07:15:25.369Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261108T081409718Z-1-mark-1.png",
+      "sha256": "f8486a9a442f78f4c28a8f34c5d165eac99da204a6982c523cdc55189d37587b",
+      "bytes": 677156,
+      "addedAt": "2026-11-08T08:14:15.602Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261108T081409718Z-2-mark-2.png",
+      "sha256": "3c51f04316df123732c8c3e4b20026bdb40ed1390944a2ebfd26e83d3035c807",
+      "bytes": 550766,
+      "addedAt": "2026-11-08T08:14:15.602Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261108T082929736Z-1-mark-1.png",
+      "sha256": "6b8d05a8ab758f8933a11ac7a40aafc5be1e36fef7ee3b4f5cf903ab22c39c8f",
+      "bytes": 418917,
+      "addedAt": "2026-11-08T08:29:36.037Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261108T083350016Z-1-mark-1.png",
+      "sha256": "fb8bea5feff31b6bfd803e915b2b96a419e8d26c7b94f69099522c3224946a1f",
+      "bytes": 73673,
+      "addedAt": "2026-11-08T08:33:55.955Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261108T090315218Z-1-key-ring.3mf",
+      "sha256": "4f32499ff0043c1b45faef6cdb8165bfdd4f7559319d180ed02a24065ab35ccd",
+      "bytes": 619364,
+      "addedAt": "2026-11-08T09:03:16.884Z",
+      "share": false
+    },
+    {
+      "file": "vendor-mechanical/2d-face-plate-2mm.dxf",
+      "sha256": "be0e6955d0aa3d830f43186c947bbde149f0f104fae99c31df94753278394499",
+      "bytes": 5234,
+      "addedAt": "2026-11-07T19:40:17.308Z",
+      "share": false
+    },
+    {
+      "file": "vendor-mechanical/2d-power-key-4mm.dxf",
+      "sha256": "7eef23b72555d8ea3a63dba11416d6b8ed6a2973ccd8702f4f3ca80f22f54f72",
+      "bytes": 8705,
+      "addedAt": "2026-11-07T19:40:17.309Z",
+      "share": false
+    },
+    {
+      "file": "vendor-mechanical/T5AI-handheld-ASM.step",
+      "sha256": "172dadb08070bfc863bfccae5c0fbf58e12c30059cc3abbcba7bb81d9af7adcf",
+      "bytes": 39696125,
+      "addedAt": "2026-11-07T19:40:17.354Z",
+      "share": false
+    },
+    {
+      "file": "vendor-mechanical/base-casing.stl",
+      "sha256": "f83ead6091dfa43c6a7b81f8dc7020cac1c119e7275797f56c1578452cf01e50",
+      "bytes": 605384,
+      "addedAt": "2026-11-07T19:40:17.359Z",
+      "share": false
+    },
+    {
+      "file": "vendor-mechanical/battery.step",
+      "sha256": "626d52bd5a4fdb244bda0c44387efca46c2bd9411e597eaed697f205d6290f09",
+      "bytes": 27684,
+      "addedAt": "2026-11-07T20:13:08.279Z",
+      "share": false
+    },
+    {
+      "file": "vendor-mechanical/display.step",
+      "sha256": "4acece2d076a3b2d7acfec8efe8ad59e457e442779c011241c3c7a2d032f092b",
+      "bytes": 64285,
+      "addedAt": "2026-11-07T20:13:08.280Z",
+      "share": false
+    },
+    {
+      "file": "vendor-mechanical/extraction-receipt.json",
+      "sha256": "c50cec443302179228b7005979ceb71919206fcadbf6d35f54adf990f15c8fc2",
+      "bytes": 2422,
+      "addedAt": "2026-11-07T20:13:08.280Z",
+      "share": false
+    },
+    {
+      "file": "vendor-mechanical/front-panel.step",
+      "sha256": "56d8e8c5189536a93aa93a0099b16c2bfddfce1cec543b36d56d5173fe04aafa",
+      "bytes": 51306,
+      "addedAt": "2026-11-07T20:13:08.281Z",
+      "share": false
+    },
+    {
+      "file": "vendor-mechanical/joystick.step",
+      "sha256": "7a1205a3f75fdae8ff19c9d51e020c3e2bcd77a0531b4bdbf3e7e8782b1161db",
+      "bytes": 671387,
+      "addedAt": "2026-11-07T20:13:08.282Z",
+      "share": false
+    },
+    {
+      "file": "vendor-mechanical/mainboard-mechanical.step",
+      "sha256": "53d7209ca18c5d4aa690723ef7e639b336ca0cfdc735c3f48faaba731ad1a133",
+      "bytes": 16775549,
+      "addedAt": "2026-11-07T20:13:08.297Z",
+      "share": false
+    },
+    {
+      "file": "vendor-mechanical/mainboard.step",
+      "sha256": "6910e5bbd0a9aae905de4c6874c0b8e558c6ed8ed69359db53a5759ffff239b7",
+      "bytes": 34746482,
+      "addedAt": "2026-11-07T20:13:08.324Z",
+      "share": false
+    },
+    {
+      "file": "vendor-mechanical/pogo-cover.step",
+      "sha256": "fd00e2fd2e55b6c21d4244b1db0d25431bb0f8e5774f69eb460816373506cad0",
+      "bytes": 36360,
+      "addedAt": "2026-11-07T20:13:08.324Z",
+      "share": false
+    },
+    {
+      "file": "vendor-mechanical/pogo-cover.stl",
+      "sha256": "ebc31df1d43480a37ddef78e592e7b7a310e2aba025c13787d3ea4fc2c94d56b",
+      "bytes": 71084,
+      "addedAt": "2026-11-07T19:40:17.360Z",
+      "share": false
+    },
+    {
+      "file": "vendor-mechanical/power-key.step",
+      "sha256": "f7dd253206220a5cfc89841accbedbf81178d6da5be0c15a94fcffb3c3d39ced",
+      "bytes": 70047,
+      "addedAt": "2026-11-07T20:13:08.325Z",
+      "share": false
+    },
+    {
+      "file": "vendor-mechanical/rear-housing.step",
+      "sha256": "3368e050902390773e0c6ef53881389e52057103a4f6f098fcea5855c12d61b5",
+      "bytes": 1130637,
+      "addedAt": "2026-11-07T20:13:08.329Z",
+      "share": false
+    },
+    {
+      "file": "vendor-mechanical/screen-riser.step",
+      "sha256": "33629e705b0d44e2e9c81d90a5deaf2327ff24d2b66b83e5c44f269710b6392b",
+      "bytes": 26171,
+      "addedAt": "2026-11-07T20:13:08.329Z",
+      "share": false
+    },
+    {
+      "file": "vendor-mechanical/screen-riser.stl",
+      "sha256": "00cade7eb8ac7c51315c10d360f287e949a0aa6af5b888b6b5d0f15c25dec2d8",
+      "bytes": 9884,
+      "addedAt": "2026-11-07T19:40:17.360Z",
+      "share": false
+    },
+    {
+      "file": "vendor-mechanical/透明亚克力切割-各一个-2mm和4mm两个厚度.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "addedAt": "2026-11-07T19:40:17.360Z",
+      "share": false
+    }
+  ]
+}

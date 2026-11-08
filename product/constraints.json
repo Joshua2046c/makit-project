@@ -1,0 +1,1068 @@
+{
+  "reference_hardware_source": "https://oshwhub.com/tuyaopen/graffiti-t5pocket-pocket-machine",
+  "board_mm": [
+    116.2,
+    67.3,
+    1.2
+  ],
+  "body_mm": [
+    134,
+    88,
+    30.48409
+  ],
+  "case_origin_mm": [
+    -1.1368409883593,
+    -9.80938572124045,
+    -15.2
+  ],
+  "wall_mm": 2.4,
+  "rear_floor_mm": 2.4,
+  "front_skin_mm": 2.0,
+  "seam_shadow_mm": 0.35,
+  "lip_clearance_each_side_mm": 0.3,
+  "mainboard_placement_mm": [
+    -73.7781252498037,
+    -52.9294502798149,
+    -5.72001517401775
+  ],
+  "battery_placement_mm": [
+    -12.5236819767184,
+    -29.455820590922,
+    -8.75508092585376
+  ],
+  "battery_rotation_deg": [
+    0,
+    0,
+    -90
+  ],
+  "battery_cell_mm": [
+    51,
+    24.2,
+    5.5
+  ],
+  "battery_pocket_clearance_each_side_mm": 0.5,
+  "battery_tape_mm": 0.5,
+  "joystick_placement_mm": [
+    -150.725,
+    -46.35,
+    -6.1
+  ],
+  "joystick_rotation_deg": [
+    -90,
+    0,
+    -90
+  ],
+  "screen_support_mm": [
+    70.95,
+    31.1,
+    3
+  ],
+  "lens_mm": [
+    77,
+    39,
+    1
+  ],
+  "display_aperture_mm": [
+    70.5,
+    30.5
+  ],
+  "usb_well_mm": [
+    14,
+    7
+  ],
+  "usb_well_centre_mm": [
+    41.9191061447,
+    30,
+    -2.745
+  ],
+  "usb_cable_hood_max_mm": [
+    12,
+    5.5
+  ],
+  "sd_opening_mm": [
+    19.5,
+    5.8
+  ],
+  "microphone_ports_mm": 2.4,
+  "microphone_centres_mm": [
+    [
+      -29.5431468217,
+      19.8452436435
+    ],
+    [
+      27.4095506274,
+      19.8234021511
+    ]
+  ],
+  "speaker_slots": {
+    "quantity": 3,
+    "width_mm": 1.4,
+    "length_mm": 7,
+    "pitch_mm": 2.8,
+    "centre_mm": [
+      48.7231155427,
+      -28.3422011053
+    ]
+  },
+  "validation": {
+    "revision": "aa152bbc8ee14177b07a0325c4d01ea8b1d32a44a0acf3429b71c88c93e90b03",
+    "made_parts_valid_single_solids": 18,
+    "undeclared_interferences": 0,
+    "declared_fits": 12,
+    "key_press_mm": 0.3,
+    "key_min_gap_mm": 0.2903,
+    "power_slide_mm": 0.5,
+    "power_min_case_gap_mm": 0.1742,
+    "rear_removal_mm": 8,
+    "usb_hood_min_case_gap_mm": 0.3,
+    "mesh_tolerance_mm": 0.02,
+    "key_path_step_mm": 0.05,
+    "power_path_step_mm": 0.025,
+    "rear_path_step_mm": 0.1,
+    "physical_test": false,
+    "middle_key_min_motion_gap_mm": 0.2904,
+    "access_probe_checks": {
+      "frame": "Intrinsic layout positions below; rotate Rx(8 deg), translate Z+22.54089371645317mm for world queries.",
+      "mesh_tolerance_mm": 0.02,
+      "usb_hood": {
+        "box_mm": [
+          12,
+          14.5,
+          5.5
+        ],
+        "at_mm": [
+          41.9191061447,
+          32.75,
+          -2.745
+        ],
+        "min_case_gap_mm": 0.3,
+        "min_hardware_gap_mm": 0.1693
+      },
+      "header_connector": {
+        "box_mm": [
+          26.6,
+          12,
+          3.4
+        ],
+        "at_mm": [
+          -1.134125,
+          33.5,
+          -6.920016257
+        ],
+        "min_case_gap_mm": 0.2175,
+        "min_hardware_gap_mm": 0.4673
+      },
+      "tf_press_tip": {
+        "box_mm": [
+          16,
+          10,
+          2
+        ],
+        "at_mm": [
+          -68.3,
+          -20.29,
+          -3.9
+        ],
+        "min_case_gap_mm": 1.9616,
+        "min_hardware_gap_mm": 0.1959
+      },
+      "note": "Representative connector/press-tip envelopes only, not measured hand geometry or physical insertion testing."
+    },
+    "standing_pose": {
+      "base_normal": [
+        0,
+        0,
+        -1
+      ],
+      "base_plane_z_mm": 0,
+      "base_z_numerical_tolerance_mm": 1e-07,
+      "screen_elevation_deg": 8,
+      "relative_geometry_unchanged": true
+    },
+    "key_window_spacing": {
+      "cap_to_opening_projected_mm": 2.042219964470675,
+      "bore_to_opening_ligament_mm": 1.7422199644706708,
+      "vendor_display_face_mm": [
+        66.85,
+        29.1
+      ],
+      "vendor_face_outside_opening_area_mm2": 0,
+      "note": "Projection measured in intrinsic panel plane. Vendor CAD surface coverage only; actual lit-screen validation pending."
+    },
+    "curved_passage": {
+      "rear_valid_single_solid": true,
+      "residual_shell_volume_in_bore_mm3": 0,
+      "electronics_cavity_intersection_volume_mm3": 0,
+      "minimum_material_to_screw_tool_well_mm": 2.549532720483644,
+      "minimum_removed_material_height_above_base_mm": 4.107238291320976,
+      "mouth_fillets_count": 2,
+      "physical_test": false,
+      "intersection_volume_with_each_bottom_dimple_mm3": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "snap_ring": {
+      "valid_single_solid": true,
+      "volume_mm3": 861.8441790480499,
+      "latch_rest_overlap_volume_mm3": 0,
+      "latch_minimum_rest_clearance_mm": 0.24999999999999933,
+      "entire_ring_outside_4mm_torus_volume_mm3": 0,
+      "minimum_4mm_curved_envelope_clearance_mm": 0.1989135566778626,
+      "installed_case_overlap_volume_mm3": 0,
+      "installed_min_gap_to_back_mm": 0.19891355667784028,
+      "installed_min_gap_to_front_mm": 5.198268399210455,
+      "installed_min_gap_to_mainboard_mm": 11.485380012828553,
+      "installed_min_gap_to_battery_mm": 39.74646699033794,
+      "displayed_min_gap_to_case_mm": 14.536840988359316,
+      "tip_end_arc_clearances_mm": [
+        0.35814156250923623,
+        0.3958406743523137
+      ],
+      "physical_test": false,
+      "method": "Exact BREP lap clearances, toroidal section-envelope inclusion and nominal installed-fit checks; does not validate material deformation or assembly force."
+    },
+    "corner_cheese_dimple": {
+      "front_valid_single_solid": true,
+      "minimum_separation_to_protected_cavity_mm": 1.6710373118969541,
+      "cavity_breakthrough_volume_mm3": 0,
+      "minimum_tool_to_closure_screw_mm": 10.720842491654109,
+      "rear_geometry_unchanged": true,
+      "physical_test": false
+    },
+    "bottom_dimples": {
+      "rear_valid_single_solid": true,
+      "minimum_material_distance_to_cavity_mm": 3.084994003789699,
+      "cavity_distances_mm": [
+        8.70569020497785,
+        8.306183038591161,
+        9.217305876085822,
+        5.246143001596375,
+        4.4506558178329945,
+        4.668191531968259,
+        3.084994003789699,
+        13.04662423605436,
+        9.280031273315082,
+        6.9447415675211674,
+        13.779107421128575
+      ],
+      "cavity_overlap_volumes_mm3": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "curved_bore_overlap_volumes_mm3": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "remaining_flat_base_area_mm2": 10225.830440522264,
+      "base_plane_z_mm": 0,
+      "base_plane_z_tolerance_mm": 1e-07,
+      "minimum_tool_to_closure_screw_mm": 15.161224882204827,
+      "physical_test": false
+    },
+    "last_changed_object": "snap_ring"
+  },
+  "connection_inventory": [
+    {
+      "id": "case_closure",
+      "quantity": 4,
+      "implementation": "printed screw joint kit; M2.5×6 countersunk"
+    },
+    {
+      "id": "pcb_mounts",
+      "quantity": 4,
+      "implementation": "printed screw joint kit; M2.5×5 pan head"
+    },
+    {
+      "id": "joystick_retainer",
+      "quantity": 2,
+      "implementation": "printed screw joint kit; M2×6 countersunk"
+    },
+    {
+      "id": "lens_seat",
+      "implementation": "free: adhesive retained in stepped pocket"
+    },
+    {
+      "id": "black_face",
+      "implementation": "free: thin adhesive in recessed seat"
+    },
+    {
+      "id": "display_support",
+      "implementation": "free: C-shaped support and compliant narrow tape"
+    },
+    {
+      "id": "battery_cradle",
+      "implementation": "free: lateral guides, removable 0.5mm adhesive pad"
+    },
+    {
+      "id": "power_key",
+      "implementation": "free: captured guide and travel stop"
+    },
+    {
+      "id": "microphone_ducts",
+      "quantity": 2,
+      "implementation": "free: declared compliant TPU compression"
+    },
+    {
+      "id": "speaker_duct",
+      "quantity": 1,
+      "implementation": "free: declared compliant TPU compression"
+    },
+    {
+      "id": "joystick_ear_pads",
+      "quantity": 2,
+      "implementation": "free: declared compliant TPU compression"
+    },
+    {
+      "id": "keycaps",
+      "quantity": 5,
+      "implementation": "free: declared light stem press fits"
+    }
+  ],
+  "middle_key": {
+    "diameter_mm": 6.6,
+    "height_mm": 2.4,
+    "round_hole_mm": 7.2,
+    "socket_mm": 2.98,
+    "socket_depth_mm": 0.9
+  },
+  "including_controls_mm": [
+    134,
+    89.40939,
+    35.40726
+  ],
+  "wedge": {
+    "angle_deg": 8,
+    "rise_mm": 12.367593453810446,
+    "warm_shell_rim_nominal_mm": [
+      17.2,
+      29.567593453810446
+    ],
+    "bottom_chamfer_mm": 0.6,
+    "frame": "Solid construction retains intrinsic layout axes; all object placements carry the rigid standing pose.",
+    "scene_position_mm": [
+      0,
+      0,
+      0
+    ],
+    "scene_rotation_deg": [
+      0,
+      0,
+      0
+    ]
+  },
+  "side_access_bays": {
+    "frame": "intrinsic layout frame before standing pose",
+    "return_wall_mm": 1.4,
+    "usb": {
+      "mouth_mm": [
+        16,
+        7
+      ],
+      "mouth_corner_radius_mm": 1.5,
+      "throat_mm": [
+        14,
+        7
+      ],
+      "throat_corner_radius_mm": 1.5,
+      "inner_y_mm": 25.8,
+      "centre_x_mm": 41.9191061447,
+      "centre_z_mm": -2.745,
+      "internal_axial_relief_mm": 0.6
+    },
+    "header": {
+      "mouth_mm": [
+        29.5,
+        5.2
+      ],
+      "mouth_corner_radius_mm": 1.3,
+      "throat_mm": [
+        27.6,
+        4.2
+      ],
+      "throat_corner_radius_mm": 1.0,
+      "inner_y_mm": 27.5,
+      "centre_x_mm": -1.134125,
+      "centre_z_mm": -6.920016257,
+      "construction": "Complete front-shell collar; rear seam routes below collar; 0.3mm keepout to rear cover."
+    },
+    "tf": {
+      "mouth_mm": [
+        20.5,
+        8
+      ],
+      "mouth_corner_radius_mm": 1.8,
+      "throat_mm": [
+        19.5,
+        5.8
+      ],
+      "throat_corner_radius_mm": 1.5,
+      "inner_x_mm": -59.7,
+      "centre_y_mm": -21.0,
+      "centre_z_mm": -3.9,
+      "retainer_clearance_mm": 0.3
+    },
+    "symmetry": "Each aperture lofts between rounded rectangles, mirror-symmetric in its local up/down direction; no clipped top corners. Return walls and floors extend inward to the connector neighborhood."
+  },
+  "cheese_dimples": {
+    "count": 45,
+    "front_and_upper_sides": 18,
+    "back_and_lower_sides": 11,
+    "fascia": 5,
+    "diameter_range_mm": [
+      3.8,
+      22
+    ],
+    "depth_range_mm": [
+      0.3,
+      3.1
+    ],
+    "front_local_remaining_mm": 1.6,
+    "bottom_decoration": "Eight complete spherical bowls and three partial edge bowls restored.",
+    "blind_count": 43,
+    "curved_passage_mouths": 2,
+    "bottom_and_cross_edge": 11
+  },
+  "layout_coordinate_frame": "Intrinsic construction/layout frame before rigid placement. Mechanical dimensions and local probes below stay in this frame; use standing_pose_transform to convert to world.",
+  "standing_pose_transform": {
+    "rotation_deg": [
+      8,
+      0,
+      0
+    ],
+    "translation_mm": [
+      0,
+      0,
+      22.54089371645317
+    ],
+    "order": "world = translation + Rx(8 degrees) * layout",
+    "implementation": "Applied to each of all 31 published object placements; assembly scene transform is identity."
+  },
+  "object_placements_world": [
+    {
+      "id": "front_panel",
+      "p": [
+        -1.1368409883593,
+        -7.598490319120921,
+        6.123616442242877
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "case_back",
+      "p": [
+        -1.1368409883593,
+        -7.598490319120921,
+        6.123616442242877
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "black_face",
+      "p": [
+        -1.1368409883593,
+        3.6827260730461506,
+        25.07812225777657
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "display_lens",
+      "p": [
+        -0.00405870167067,
+        -0.20573024176319088,
+        23.521807789070863
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "mainboard",
+      "p": [
+        -73.7781252498037,
+        -51.618272258838594,
+        9.51018960935269
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "battery",
+      "p": [
+        -12.5236819767184,
+        -27.95068680816312,
+        9.771558743369845
+      ],
+      "r": [
+        8.000000000000002,
+        7.951386703658792e-16,
+        -89.99999999999999
+      ]
+    },
+    {
+      "id": "joystick",
+      "p": [
+        -150.725,
+        -45.049969070315385,
+        10.049585267630556
+      ],
+      "r": [
+        -82,
+        -3.1805546814635168e-15,
+        -90
+      ]
+    },
+    {
+      "id": "joystick_retainer",
+      "p": [
+        -1.1368409883593,
+        -7.598490319120921,
+        6.123616442242877
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "lcd_support",
+      "p": [
+        0,
+        0.6193202992722914,
+        18.134200810553182
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "key_a",
+      "p": [
+        49.7881815828,
+        4.192349873626817,
+        25.95760727010928
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "key_b",
+      "p": [
+        40.5881612628,
+        -5.1142080494850815,
+        24.649655851388978
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "key_c",
+      "p": [
+        49.3403659871763,
+        -15.838632648677962,
+        23.14243626651555
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "key_menu",
+      "p": [
+        -40.5040587016707,
+        -36.07737778841636,
+        20.298066131247747
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "key_reset",
+      "p": [
+        -49.2670762277057,
+        -35.95161349215808,
+        20.315741150419644
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "power_slider",
+      "p": [
+        -43.4545743227,
+        24.041568579313598,
+        22.48630208558139
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "mic_seal_l",
+      "p": [
+        -29.5431468217,
+        19.888705368186784,
+        23.619362096766423
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "mic_seal_r",
+      "p": [
+        27.4095506274,
+        19.867076435689402,
+        23.61632234853952
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "speaker_seal",
+      "p": [
+        48.7231155427,
+        -27.968955581758586,
+        17.903234052475675
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "joy_pad_l",
+      "p": [
+        -56.475,
+        10.349908301809803,
+        20.031905246147154
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "joy_pad_r",
+      "p": [
+        -38.575,
+        -5.692434411803636,
+        17.777301010594094
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "case_screw_1",
+      "p": [
+        0,
+        0,
+        22.54089371645317
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "case_screw_2",
+      "p": [
+        0,
+        0,
+        22.54089371645317
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "case_screw_3",
+      "p": [
+        0,
+        0,
+        22.54089371645317
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "case_screw_4",
+      "p": [
+        0,
+        0,
+        22.54089371645317
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "pcb_screw_1",
+      "p": [
+        0,
+        0,
+        22.54089371645317
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "pcb_screw_2",
+      "p": [
+        0,
+        0,
+        22.54089371645317
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "pcb_screw_3",
+      "p": [
+        0,
+        0,
+        22.54089371645317
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "pcb_screw_4",
+      "p": [
+        0,
+        0,
+        22.54089371645317
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "retainer_screw_1",
+      "p": [
+        0,
+        0,
+        22.54089371645317
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "retainer_screw_2",
+      "p": [
+        0,
+        0,
+        22.54089371645317
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "display",
+      "p": [
+        -0.00405870167067279,
+        -0.056812911920820955,
+        22.462205929172132
+      ],
+      "r": [
+        8.000000000000002,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "snap_ring",
+      "p": [
+        100,
+        -15,
+        1.3
+      ],
+      "r": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "manufacturing_note": "Rear retained flat base lies on bed; restored bottom bowls may require bridge/overhang tuning. Any supports in visible pits must be removable. Physical first-piece calibration remains required.",
+  "curved_corner_passage": {
+    "bore_diameter_mm": 4,
+    "bore_diameter_source": "user",
+    "centreline_radius_mm": 18,
+    "centreline_radius_source": "default",
+    "mouth_blend_radius_mm": 0.5,
+    "entry_face": "+X",
+    "entry_centre_mm": [
+      65.8631590116407,
+      16.190614278759554,
+      -18.5
+    ],
+    "exit_face": "+Y",
+    "exit_centre_mm": [
+      47.863159011640704,
+      34.190614278759554,
+      -18.5
+    ],
+    "circle_axis_layout_mm": [
+      65.8631590116407,
+      34.190614278759554,
+      -18.5
+    ],
+    "frame": "Intrinsic layout before world Rx8 and Z+22.54089371645317.",
+    "sweep_angles_deg": [
+      -80,
+      -190
+    ],
+    "angular_overrun_each_end_deg": 10,
+    "tool_centreline_length_mm": 34.557519189487856,
+    "route": "One constant radius circular path, same radius and plane as nominal installed ring.",
+    "corner_tool_well_diameter_mm": 5.5,
+    "other_tool_wells_diameter_mm": 8,
+    "existing_countersink_opening_mm": 5.1100002,
+    "existing_screw_head_diameter_mm": 4.381802148466053,
+    "hole_position_change_authorized_by_user": true
+  },
+  "snap_ring": {
+    "object_id": "snap_ring",
+    "joint_style": "flat staggered radial lap tongues with integral inward-release catch",
+    "reference": "product/references/uploads/20261108T090315218Z-1-key-ring.3mf",
+    "material": "unfilled PA11 nylon, SLS",
+    "material_source": "default",
+    "colour": "#b6b15c",
+    "centreline_radius_mm": 18,
+    "radial_width_mm": 3.2,
+    "axial_thickness_mm": 2.6,
+    "profile_corner_radius_mm": 0.65,
+    "outer_diameter_mm": 39.2,
+    "inner_diameter_mm": 32.8,
+    "groove_width_mm": 0.35,
+    "groove_depth_each_face_mm": 0.25,
+    "radial_lane_width_mm": 1.4,
+    "radial_lane_gap_mm": 0.4,
+    "overlap_sector_deg": 37.6,
+    "inner_tip_gap_arc_mm": 0.35814156250923623,
+    "outer_tip_gap_arc_mm": 0.3958406743523137,
+    "keeper_wall_mm": 0.9,
+    "catch_engagement_mm": 0.25,
+    "minimum_rest_latch_clearance_mm": 0.25,
+    "flex_length_root_to_catch_mm": 8.953539062730911,
+    "display_position_mm": [
+      100,
+      -15,
+      1.3
+    ],
+    "display_rotation_deg": [
+      0,
+      0,
+      0
+    ],
+    "installed_rotation_about_local_z_deg": 45,
+    "rated_load": null,
+    "assembly": "Deflect inner lap tongue inward, disengage catch, stagger ends elastically and progressively thread through R18 bore; restore lap engagement.",
+    "physical_assembly_test": false,
+    "connections": {
+      "bore": "free custom elastic ring",
+      "joint": "free integral staggered lap catch"
+    }
+  },
+  "corner_cheese_dimple": {
+    "diameter_mm": 8,
+    "depth_mm": 1,
+    "plan_inset_mm": 1.2,
+    "layout_centre_mm": [
+      -64.65227388161436,
+      -50.32481861449551,
+      2
+    ],
+    "normal": [
+      0,
+      0,
+      1
+    ],
+    "inner_local_pad_mm": 0.6,
+    "source": "default",
+    "location_source": "user",
+    "kind": "blind spherical cap straddling lower-left front rounded rim"
+  },
+  "bottom_dimples": {
+    "kind": "spherical_cap",
+    "complete_count": 8,
+    "edge_count": 3,
+    "layout_xy_diameter_depth_mm": [
+      [
+        -32,
+        12,
+        19,
+        2.8
+      ],
+      [
+        7,
+        3,
+        12,
+        2.0
+      ],
+      [
+        33,
+        18,
+        22,
+        3.1
+      ],
+      [
+        -17,
+        -20,
+        13,
+        1.8
+      ],
+      [
+        25,
+        -30,
+        10,
+        1.2
+      ],
+      [
+        -41,
+        -31,
+        8,
+        0.85
+      ],
+      [
+        4,
+        -44,
+        5,
+        0.65
+      ],
+      [
+        9,
+        29,
+        6,
+        0.95
+      ],
+      [
+        -68.2,
+        5,
+        12,
+        1.4
+      ],
+      [
+        66,
+        -15,
+        9,
+        1
+      ],
+      [
+        -12,
+        34.4,
+        8,
+        1
+      ]
+    ],
+    "layout_source": "Restored from prior design cached parameters before annular-groove revision.",
+    "depth_direction": "Normal inward from standing horizontal base.",
+    "normal_layout": [
+      0,
+      -0.13917310096006544,
+      -0.9902680687415704
+    ],
+    "depth_scale": 1,
+    "source": "user restoration of prior design"
+  }
+}

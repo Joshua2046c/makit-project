@@ -1,0 +1,1 @@
+publish("joystick", asset("design/pocket/source/assets/f2cc66c38d4aa91f9d587cdfef6a2b50491d38117eb2db6cf510732895c8e409.step"), "原配摇杆 · 参考件")

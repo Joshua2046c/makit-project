@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "bom_ready": true,
+  "requirements_digest": "c44e2b988d88d1ac4f6355e4eb40c35481c7addc3ce6c8e35a445dcaadad1020",
+  "items": [
+    {
+      "id": "mainboard",
+      "name": "Tuya T5AI Pocket",
+      "quantity": 1,
+      "platform_ref": "tuya/t5ai-pocket",
+      "manufacturer": "Tuya",
+      "source": "user",
+      "datasheet_url": "https://oshwhub.com/tuyaopen/graffiti-t5pocket-pocket-machine",
+      "selection_reason": "用户指定开发板，保留原配2.9英寸LCD、电池、摇杆与板载音频，适配官方Rev-C机械模型。",
+      "included_accessories": [
+        "YDP290H001-V3 2.9in ST7305 reflective monochrome LCD",
+        "Nintendo HAC-006 3.7V 525mAh battery",
+        "Original Joy-Con joystick and flex",
+        "Onboard speaker and dual microphones"
+      ],
+      "supply_risk": "淘宝套餐内容不可读，按实际随板附件核对，避免重复采购。摄像头和Pogo磁吸附件不属于本外壳配置。",
+      "part_identity": "0b66df1feff8f000"
+    },
+    {
+      "id": "front_shell",
+      "name": "米杏色PETG芝士凹洞结构前壳",
+      "quantity": 1,
+      "manufacturer": "Project custom design",
+      "part_number": "POCKET-FRONT-SHELL",
+      "source": "default",
+      "selection_reason": "完整正面，70.5×30.5mm开窗；USB-C、排针与TF侧口采用紧凑对称圆角及向内延伸的平台，遮住多余板件。左下圆角边缘增加8mm直径、1mm深球面盲凹，并保留内侧余厚。",
+      "part_identity": "dccbef25b9575218"
+    },
+    {
+      "id": "rear_housing",
+      "name": "米杏色PETG 8°楔形后壳，底面芝士球面凹洞",
+      "quantity": 1,
+      "manufacturer": "Project custom design",
+      "part_number": "POCKET-REAR-HOUSING",
+      "source": "default",
+      "selection_reason": "底面恢复8处完整球面圆凹和3处跨边缘凹洞，保留侧壁芝士装饰；R18mm、直径4mm圆弧孔适配独立弹扣卡环，孔缘R0.5，角部工具井5.5mm。",
+      "part_identity": "ab82a0bc264753d5"
+    },
+    {
+      "id": "black_face",
+      "name": "黑色PETG屏幕功能面板，122×54×1mm",
+      "quantity": 1,
+      "manufacturer": "Project custom design",
+      "part_number": "POCKET-BLACK-FACE",
+      "source": "default",
+      "selection_reason": "完整连续外周；70.5×30.5mm屏幕开窗，给右侧中间圆键增加留白，保留原麦克风、摇杆和圆形按键孔。",
+      "part_identity": "fcce3aeba120734f"
+    },
+    {
+      "id": "display_lens",
+      "name": "透明亚克力保护镜片，77×39×1mm",
+      "quantity": 1,
+      "manufacturer": "Project custom design",
+      "part_number": "POCKET-DISPLAY-LENS",
+      "source": "default",
+      "selection_reason": "基于用户新增外观图片及真实原配硬件，自主设计的结构件。",
+      "part_identity": "2b76b0b41bb857b6"
+    },
+    {
+      "id": "screen_riser",
+      "name": "PETG屏幕C形支架，70.95×31.1×3mm",
+      "quantity": 1,
+      "manufacturer": "Project custom design",
+      "part_number": "POCKET-SCREEN-RISER",
+      "source": "default",
+      "selection_reason": "基于用户新增外观图片及真实原配硬件，自主设计的结构件。",
+      "part_identity": "ffefbc67d0a4c581"
+    },
+    {
+      "id": "power_key",
+      "name": "橄榄绿PETG导向电源推键",
+      "quantity": 1,
+      "manufacturer": "Project custom design",
+      "part_number": "POCKET-POWER-KEY",
+      "source": "default",
+      "selection_reason": "基于用户新增外观图片及真实原配硬件，自主设计的结构件。",
+      "part_identity": "7315431d525e5300"
+    },
+    {
+      "id": "key_a",
+      "name": "米杏色PETG圆形功能键帽，直径8mm",
+      "quantity": 1,
+      "manufacturer": "Project custom design",
+      "part_number": "POCKET-KEY-A",
+      "source": "default",
+      "selection_reason": "基于用户新增外观图片及真实原配硬件，自主设计的结构件。",
+      "part_identity": "f7beffed758a63b0"
+    },
+    {
+      "id": "key_b",
+      "name": "米杏色PETG圆形功能键帽，直径6.6mm",
+      "quantity": 1,
+      "manufacturer": "Project custom design",
+      "part_number": "POCKET-KEY-B",
+      "source": "default",
+      "selection_reason": "按用户标记将中间功能键改为圆形；沿用原板单个开关，配7.2mm圆孔。",
+      "part_identity": "29a9ef82808c0bbc"
+    },
+    {
+      "id": "key_c",
+      "name": "橄榄绿PETG主功能键帽，直径10.5mm",
+      "quantity": 1,
+      "manufacturer": "Project custom design",
+      "part_number": "POCKET-KEY-C",
+      "source": "default",
+      "selection_reason": "基于用户新增外观图片及真实原配硬件，自主设计的结构件。",
+      "part_identity": "50f84cb992256ebf"
+    },
+    {
+      "id": "key_menu",
+      "name": "米杏色PETG菜单键帽，直径6.6mm",
+      "quantity": 1,
+      "manufacturer": "Project custom design",
+      "part_number": "POCKET-KEY-MENU",
+      "source": "default",
+      "selection_reason": "基于用户新增外观图片及真实原配硬件，自主设计的结构件。",
+      "part_identity": "6e3883ca55ffca09"
+    },
+    {
+      "id": "key_reset",
+      "name": "橄榄绿PETG复位键帽，直径6.6mm",
+      "quantity": 1,
+      "manufacturer": "Project custom design",
+      "part_number": "POCKET-KEY-RESET",
+      "source": "default",
+      "selection_reason": "基于用户新增外观图片及真实原配硬件，自主设计的结构件。",
+      "part_identity": "f4c59b02c30473d5"
+    },
+    {
+      "id": "joystick_retainer",
+      "name": "PETG摇杆压框，29×24.4×2mm",
+      "quantity": 1,
+      "manufacturer": "Project custom design",
+      "part_number": "POCKET-JOYSTICK-RETAINER",
+      "source": "default",
+      "selection_reason": "基于用户新增外观图片及真实原配硬件，自主设计的结构件。",
+      "part_identity": "7260d2569f2d89ef"
+    },
+    {
+      "id": "mic_seals",
+      "name": "软TPU麦克风独立密封圈，外径8/内径3.2/自由高度1.7mm",
+      "quantity": 2,
+      "manufacturer": "Project custom design",
+      "part_number": "POCKET-MIC-SEALS",
+      "source": "default",
+      "selection_reason": "基于用户新增外观图片及真实原配硬件，自主设计的结构件。",
+      "part_identity": "b3eb249b71bce3bc"
+    },
+    {
+      "id": "speaker_seal",
+      "name": "软TPU扬声器密封圈，外径12/内径8/自由高度0.7mm",
+      "quantity": 1,
+      "manufacturer": "Project custom design",
+      "part_number": "POCKET-SPEAKER-SEAL",
+      "source": "default",
+      "selection_reason": "基于用户新增外观图片及真实原配硬件，自主设计的结构件。",
+      "part_identity": "0dc73798364d1d91"
+    },
+    {
+      "id": "joystick_pads",
+      "name": "软TPU摇杆耳位缓冲垫，外径2.6/内径1.7/自由高度0.4mm",
+      "quantity": 2,
+      "manufacturer": "Project custom design",
+      "part_number": "POCKET-JOYSTICK-PADS",
+      "source": "default",
+      "selection_reason": "基于用户新增外观图片及真实原配硬件，自主设计的结构件。",
+      "part_identity": "83027b8e1b52a3b7"
+    },
+    {
+      "id": "case_screws",
+      "name": "M2.5-0.45×6mm ISO 7046 十字沉头螺钉",
+      "quantity": 4,
+      "source": "research",
+      "selection_reason": "螺接计算返回的标准、长度和数量，模型中已核对。",
+      "part_identity": "709e80c88487a241"
+    },
+    {
+      "id": "board_screws",
+      "name": "M2.5-0.45×5mm ISO 7045 十字盘头螺钉",
+      "quantity": 4,
+      "source": "research",
+      "selection_reason": "螺接计算返回的标准、长度和数量，模型中已核对。",
+      "part_identity": "709e80c88487a241"
+    },
+    {
+      "id": "retainer_screws",
+      "name": "M2-0.4×6mm ISO 7046 十字沉头螺钉",
+      "quantity": 2,
+      "source": "research",
+      "selection_reason": "螺接计算返回的标准、长度和数量，模型中已核对。",
+      "part_identity": "709e80c88487a241"
+    },
+    {
+      "id": "face_tape",
+      "name": "0.10–0.12mm薄双面胶，用于黑色面板及镜片台阶",
+      "quantity": 1,
+      "source": "default",
+      "selection_reason": "成品结构所需的装配辅料或使用附件。",
+      "part_identity": "709e80c88487a241"
+    },
+    {
+      "id": "lcd_tape",
+      "name": "3mm宽屏幕用胶条：支架底部薄胶层、上部0.5mm可压缩泡棉胶",
+      "quantity": 1,
+      "source": "default",
+      "selection_reason": "成品结构所需的装配辅料或使用附件。",
+      "part_identity": "709e80c88487a241"
+    },
+    {
+      "id": "battery_tape",
+      "name": "0.5mm可移除电池泡棉双面胶，留拉出胶尾",
+      "quantity": 1,
+      "source": "default",
+      "selection_reason": "成品结构所需的装配辅料或使用附件。",
+      "part_identity": "709e80c88487a241"
+    },
+    {
+      "id": "acoustic_mesh",
+      "name": "薄透声防尘网，用于扬声器及双麦克风孔",
+      "quantity": 1,
+      "source": "default",
+      "selection_reason": "成品结构所需的装配辅料或使用附件。",
+      "part_identity": "709e80c88487a241"
+    },
+    {
+      "id": "usb_cable",
+      "name": "USB-C 5V充电/数据线，接头塑胶包络不超过12×5.5mm",
+      "quantity": 1,
+      "source": "default",
+      "selection_reason": "成品结构所需的装配辅料或使用附件。",
+      "part_identity": "709e80c88487a241"
+    },
+    {
+      "id": "snap_ring",
+      "name": "PA11韧性尼龙扁平搭接挂环，外径39.2mm、截面3.2×2.6mm",
+      "quantity": 1,
+      "manufacturer": "Project custom design",
+      "part_number": "POCKET-SNAP-RING",
+      "source": "default",
+      "selection_reason": "参考用户key-ring.3mf重新参数化设计扁平环和错位搭接舌片；R18曲率配4mm孔，环身截面3.2×2.6mm、外径39.2mm，一体弹性止退凸舌，无外凸母扣。按用户要求加粗，截面圆角R0.65，保持4mm孔径。",
+      "datasheet_url": "https://formlabs.com/products/nylon-11-powder/",
+      "supply_risk": "SLS无填充PA11首件验证搭接间隙、释放力、穿入与循环寿命；未规定额定载荷。"
+    }
+  ],
+  "supply_risks": [
+    "按所购T5 Pocket套餐核对屏幕、电池和摇杆，不重复采购。",
+    "PETG卡口、柔性垫和实际线缆弯折仍需样件验证；所有可见干涉均已在CAD中处理，保留已声明的插接、压配和柔性压缩。",
+    "0.2mm圆环槽按用户指定建模；默认0.4mm喷嘴不保证细槽复现，需精细打印或后加工样件验证。"
+  ],
+  "unresolved_items": []
+}

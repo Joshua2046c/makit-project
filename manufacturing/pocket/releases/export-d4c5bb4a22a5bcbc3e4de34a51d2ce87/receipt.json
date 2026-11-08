@@ -1,0 +1,287 @@
+{
+  "designId": "pocket",
+  "revision": "aa152bbc8ee14177b07a0325c4d01ea8b1d32a44a0acf3429b71c88c93e90b03",
+  "schemaVersion": 3,
+  "exportId": "export-d4c5bb4a22a5bcbc3e4de34a51d2ce87",
+  "generatedAt": "2026-11-08T09:15:59.995Z",
+  "designSha256": "dfa21fb220824097c58d8707dc74be10159e994311a57e1f7f8000fdac7d338f",
+  "role": "enclosure",
+  "stateHash": "5f227e20bb0bb724f7f5b41b225811c81eeab2d6afc63bccc77214dc648ebf93",
+  "stateManifest": {
+    "schemaVersion": 4,
+    "designId": "pocket",
+    "role": "enclosure",
+    "design": {
+      "revision": "aa152bbc8ee14177b07a0325c4d01ea8b1d32a44a0acf3429b71c88c93e90b03",
+      "designSha256": "bd9b024d82553ba79320cce56e6c1b06cc1399c41ff57d62f852cdc1e05cf7ba",
+      "manifestSha256": "1f33a96b93aba3ab28520cccd04d2c4db1f228565a05a807ef1a13bf654d0146",
+      "modelSha256": "482288c5c2ed177c01caa7bd3d57cc1352f5f29afe9bfb253cee9cc61f78864d",
+      "pcbReleases": []
+    },
+    "brief": {
+      "path": "design/pocket/README.md",
+      "sha256": "06c84a4c73035cfd51a3137f2ca6125eda35cf716d4d840bc005b5251a6931c4"
+    },
+    "requirement": {
+      "artifactContractPath": "product/contract.json",
+      "artifactContractSha256": "59ae42894ff8f90651332b30cad5a464b41de9f69da5b23917e837ea4ffc0bf0",
+      "designRequirementSha256": "ff405d984d1b32bd35a24cb8a601331bbb6d997d672e1279c5dc4fa6c5bf5f3b",
+      "inputs": [
+        {
+          "role": "external-reference",
+          "id": "key_ring_3mf_reference",
+          "path": "product/references/uploads/20261108T090315218Z-1-key-ring.3mf",
+          "sha256": "4f32499ff0043c1b45faef6cdb8165bfdd4f7559319d180ed02a24065ab35ccd",
+          "sizeBytes": 619364
+        },
+        {
+          "role": "external-reference",
+          "id": "tuya_mechanical",
+          "path": "product/references/vendor-mechanical/T5AI-handheld-ASM.step",
+          "sha256": "172dadb08070bfc863bfccae5c0fbf58e12c30059cc3abbcba7bb81d9af7adcf",
+          "sizeBytes": 39696125
+        }
+      ]
+    },
+    "delivery": {
+      "target": "manufacturing_handoff",
+      "formats": [
+        "step"
+      ]
+    },
+    "stateHash": "5f227e20bb0bb724f7f5b41b225811c81eeab2d6afc63bccc77214dc648ebf93"
+  },
+  "buildArtifacts": {
+    "manifestSha256": "1f33a96b93aba3ab28520cccd04d2c4db1f228565a05a807ef1a13bf654d0146",
+    "modelSha256": "482288c5c2ed177c01caa7bd3d57cc1352f5f29afe9bfb253cee9cc61f78864d"
+  },
+  "exportAlgorithm": {
+    "version": 1,
+    "bootstrapSha256": "73e2a6d20ca2ee605997d4e1a375b8831f0b363e3d66e5778b9738224ab9bcea"
+  },
+  "sourceHashes": {
+    "black_face/black_face": "25eb29cf4855982a590cb222c625c444105863e390991f1e83e89a066c6cf718",
+    "case_back/case_back": "18618570ca8717616c89975a7937adb2345a88fbf61833a983860873f8692e67",
+    "display_lens/display_lens": "77257c592dfecab675a9de64e21ae978038448ea0fd6ef5de22ec8a6f75df209",
+    "front_panel/front_panel": "150b3536a1aa166b0ffdee93bd7b91eaeba8d35c4f4b25fb7300edbf6c5b0304",
+    "imports/battery": "81ddb2d3d354bafc9a41aa8942dc276a254cd8ce8b7c0c04c6c5b8c47e64dae5",
+    "imports/display": "f64eb5e3753f661c1c1f154566d59d13a10c29cf1fb494c016ccf791658d2b40",
+    "imports/joystick": "11497c5f7b958f5770e5a4107e4942e06137412965fb17925acaf4a3b3b6f51d",
+    "imports/mainboard": "1aff0b3d4abe867b4065f46901b3cfa88ca68bbea17572e37ab59113c33a4d8e",
+    "joy_pad_l/joy_pad_l": "edf1e53744bb46a817f0f69f52c98b0d71aa4324eea892eff90483371ff6f9de",
+    "joy_pad_r/joy_pad_r": "8aa326210996ef9858679c3232e486309ae9b06d7c54195f25b7cb12102f9849",
+    "joystick_retainer/joystick_retainer": "8db71781b00345b73c324874e4bca3e99eed2efb29841cf3cd9e115c7a82fe55",
+    "key_a/key_a": "400bbe4a741f91469e820dbd03178e0de35a5ccc0ab13aa658e6f08849dad55b",
+    "key_b/key_b": "2160d1cdcde84a4e71d6c4421639a71036625ae6fe0831d6e75f002e121cc760",
+    "key_c/key_c": "37fcee45517c35d5d05d72cdcdd687f0a5d7c09f4f36467ebf69cd2e78407f6c",
+    "key_menu/key_menu": "179e4a336ab121d8d59def802a34b9f92c12ab08f65ef7e9a57a034114b2d6a9",
+    "key_reset/key_reset": "e6201bb78e78bcb4f2a122739d9a6e3157db2fab6cda271c24f5125394ae08ac",
+    "lcd_support/lcd_support": "726084072ae5d3563135dc9c468d5b5085d824c144a281b1e90b2880135c3009",
+    "mic_seal_l/mic_seal_l": "c674eef5117403dd2b921e88a69f29351b54f381fd6402cb28785bb076dc0b14",
+    "mic_seal_r/mic_seal_r": "d7ad9264f126badd92c6261d7acdfc68f45945697f5b8c072a77e4a7140c8401",
+    "power_slider/power_slider": "12591cc1793dbf8b5c26a4f177f17a7a7ec28e92501a51bc196d987a34429c5d",
+    "snap_ring/snap_ring": "4ba2f24bf326171e83d903e9cd35bcf0b863957260dccb972d36aa2daa33599e",
+    "speaker_seal/speaker_seal": "c0bc8f3baa59aa8ecf434215c48b9b606b555a5bf96f7a720ebfba608d20e28b"
+  },
+  "assetHashes": {
+    "battery": "d2e82b8e2bccd66797c447dddf7c740ae062bf674884187bd902e3c28169cc8d",
+    "display": "e693c4174ed0ae3c8d42638ab365bbeae3c341ac3f581235c9ad46e39018eee6",
+    "joystick": "f2cc66c38d4aa91f9d587cdfef6a2b50491d38117eb2db6cf510732895c8e409",
+    "mainboard": "53d7209ca18c5d4aa690723ef7e639b336ca0cfdc735c3f48faaba731ad1a133"
+  },
+  "shapeHashes": {
+    "battery": "e3e256493cebc7393c0eb5d3e32aaa133473025ddaed1349400fa1f10fbda00e",
+    "black_face": "29e953aa03b3c66e53db84a98a8a991093ee11adca65521b1cc5c8d3c92200fc",
+    "case_back": "38b3f23d4b9c963537185cb706a944a330e2553f3fdade9ba52418d30b060b1d",
+    "case_screw_1": "be375bfc9a37adaf2aab7a8d01ba52699d169a4de51cab0cb179e61a6c47bbe4",
+    "case_screw_2": "5e9b4d6caa73ff1d6a7b472c4953e855b37a265ec51a78d23b6ee3b861e8e174",
+    "case_screw_3": "0bdc881c7d6d130d1c64011bf7456ceb97d21e8c956eba17458e7ca609e53d68",
+    "case_screw_4": "4e8dc7bf6d046c41c54f78912a093b1577e42d300ae5a4d04c89b98d30db12dc",
+    "display": "8ac0780801698cf671da0c9a83f72d2499c2b75ff524a3bac29e80b5c0e3d5b6",
+    "display_lens": "0b55a29ae1c378678f23fd075171427073b4769e69561c4ccf954528d04a30c3",
+    "front_panel": "6e421aade22ecdb39d2e882f5d813e944c4142605c0b6a88d054fb2f38da85f8",
+    "joy_pad_l": "eed69cd637b3882a239dd1836e21c92dbe5d14d16b3eca4e1f5bb15e239bdfcb",
+    "joy_pad_r": "b863f0b37e0eb9b62b84bdf9efd7244a765778bdc6338cedf2f2e0e7ccf94965",
+    "joystick": "39d65b05b14705275915bc9c604020db0f4773b54c7c809e7609bdbf3b460365",
+    "joystick_retainer": "2fe4a530bdf97525c78a624cba87215084780cd7668114d3a1d301e52b8a03ea",
+    "key_a": "5f20fe50d9ab6d8a468863f32b52210ca203b0c4bf611907d7776621fab59df6",
+    "key_b": "64316541ddf93c1e210c3ba1382485825a7027f3d7100f25022bc4f50f4b35cd",
+    "key_c": "5a17d2e330490b3c31e8263b2e93473d8df43424b3ac589926904581c8955046",
+    "key_menu": "e95e11af76ee89a507d23bb05f8632bda15c13fd0cee7dcb4b2c32337a0e7433",
+    "key_reset": "73604efcd0aedbfabde0263c5565f1d709820569c2e16e51942d455d62817c25",
+    "lcd_support": "86a801716c55fce71c8c269459fc6d8d77bc661a26be268318bced0eb97f8b37",
+    "mainboard": "71d492fc109f8273100cdab19be852c5b0ad017e3aeacb12a60a92a52c911de0",
+    "mic_seal_l": "4c228f148e3f942dcc3ed5e20b9150fe95a6a6027bf357962080890e199e607f",
+    "mic_seal_r": "64362c049f0437f74909a0c1ddf6863258a4a90974cb6ad27cc40f03d2baffdd",
+    "pcb_screw_1": "65ff3a29a786e96936638265d5a0957b67fb442f468e476da82387a866dabff6",
+    "pcb_screw_2": "29800ec5f91653de983e00138b4c8fbb20c76d30ae3c5e9553f9cd83203f0758",
+    "pcb_screw_3": "8f0d281c212eb7b3d9d0d77cfecbb4ca9613a1195b63f7ffc1ee9dfebde6b730",
+    "pcb_screw_4": "f5dc70bdb0aa9c3b613ff9cb80622d149b1469960a6c57afbb30cbe5577660ff",
+    "power_slider": "db78f86b4764e22713b2f54cecc32e74c8fa53da6eaf2107933d0af91007600b",
+    "retainer_screw_1": "7259a895b27adf2ea50b29b9dae49ba09722145d2a97a858ed38f3d05cfd9fd6",
+    "retainer_screw_2": "8f8163a4ff3bf6c19db13cba8e11f270fe18c9f0618594b3f9b9c233a0daceec",
+    "snap_ring": "7c7456174f671eeae1ed7345ca87903f7bfbe9794c5780fa7d773dbb38447478",
+    "speaker_seal": "3f6055346e43447164a704180c97fcc7fe0fdad1c169168c0de13311b6fa7f39"
+  },
+  "runtime": {
+    "manifestHash": "40096ae61f16c15d83c469783a9e2d4c3ceb37e11021f0ef221ee016e9a4847a",
+    "pythonVersion": "3.12.13",
+    "build123dVersion": "0.10.0",
+    "ocpVersion": "7.8.1.1.post1",
+    "cadpyHash": "d5e9f5168ad46e1ecf2fc58e659e9bb49f508a73b0e43b6d4d70331eb4232b74"
+  },
+  "artifacts": [
+    {
+      "path": "manufacturing/pocket/releases/export-d4c5bb4a22a5bcbc3e4de34a51d2ce87/model.step",
+      "role": "model/step",
+      "sha256": "9c9eb47319ad1459cc830606068bb3c50d50058586332de65211df42d4080bee",
+      "sizeBytes": 51919532
+    }
+  ],
+  "interference": {
+    "summary": "12 interfering pairs",
+    "counts": {
+      "objects": 32,
+      "pairs": 496,
+      "exact": 0,
+      "mesh": 0,
+      "cached": 111,
+      "interference": 12,
+      "undeclared": 0,
+      "over_budget": 0,
+      "undetermined": 0
+    },
+    "overlaps": [
+      {
+        "a": "display",
+        "b": "mainboard",
+        "verdict": "declared",
+        "kind": "nominal_contact",
+        "reason": "OEM LCD flexible tail seated in FPC1 connector; glass and PCB bodies do not intersect",
+        "maxDepthMm": 0.1102,
+        "volumeMm3": 2.276286,
+        "budgetMm": 0.15
+      },
+      {
+        "a": "joy_pad_l",
+        "b": "joystick",
+        "verdict": "declared",
+        "kind": "compliant",
+        "reason": "0.4mm TPU washer compressed into 0.3mm retainer gap on the flat mounting ear",
+        "maxDepthMm": 0.1,
+        "volumeMm3": 0.303949,
+        "budgetMm": 0.15
+      },
+      {
+        "a": "joy_pad_r",
+        "b": "joystick",
+        "verdict": "declared",
+        "kind": "compliant",
+        "reason": "0.4mm TPU washer compressed into 0.3mm retainer gap on the flat mounting ear",
+        "maxDepthMm": 0.1,
+        "volumeMm3": 0.303949,
+        "budgetMm": 0.15
+      },
+      {
+        "a": "joystick",
+        "b": "mainboard",
+        "verdict": "declared",
+        "kind": "nominal_contact",
+        "reason": "Lowered OEM joystick flex now mates to CN2 beneath the PCB; overlap is confined to the connector",
+        "maxDepthMm": 0.15,
+        "volumeMm3": 0.845307,
+        "budgetMm": 0.2
+      },
+      {
+        "a": "key_a",
+        "b": "mainboard",
+        "verdict": "declared",
+        "kind": "press_fit",
+        "reason": "Prototype PETG cap socket on the original switch stem; calibrate the print before assembly",
+        "maxDepthMm": 0.0544,
+        "volumeMm3": 0.1923,
+        "budgetMm": 0.15
+      },
+      {
+        "a": "key_b",
+        "b": "mainboard",
+        "verdict": "declared",
+        "kind": "press_fit",
+        "reason": "Prototype PETG cap socket on the original switch stem; calibrate the print before assembly",
+        "maxDepthMm": 0.0652,
+        "volumeMm3": 0.1923,
+        "budgetMm": 0.15
+      },
+      {
+        "a": "key_c",
+        "b": "mainboard",
+        "verdict": "declared",
+        "kind": "press_fit",
+        "reason": "Prototype PETG cap socket on the original switch stem; calibrate the print before assembly",
+        "maxDepthMm": 0.0544,
+        "volumeMm3": 0.1923,
+        "budgetMm": 0.15
+      },
+      {
+        "a": "key_menu",
+        "b": "mainboard",
+        "verdict": "declared",
+        "kind": "press_fit",
+        "reason": "Prototype PETG cap socket on the original switch stem; calibrate the print before assembly",
+        "maxDepthMm": 0.0655,
+        "volumeMm3": 0.1923,
+        "budgetMm": 0.15
+      },
+      {
+        "a": "key_reset",
+        "b": "mainboard",
+        "verdict": "declared",
+        "kind": "press_fit",
+        "reason": "Prototype PETG cap socket on the original switch stem; calibrate the print before assembly",
+        "maxDepthMm": 0.0655,
+        "volumeMm3": 0.1923,
+        "budgetMm": 0.15
+      },
+      {
+        "a": "mainboard",
+        "b": "mic_seal_l",
+        "verdict": "declared",
+        "kind": "compliant",
+        "reason": "Individual microphone duct: 1.7mm free height compressed into the 1.520mm capsule-to-front gap",
+        "maxDepthMm": 0.1801,
+        "volumeMm3": 2.676791,
+        "budgetMm": 0.25
+      },
+      {
+        "a": "mainboard",
+        "b": "mic_seal_r",
+        "verdict": "declared",
+        "kind": "compliant",
+        "reason": "Individual microphone duct: 1.7mm free height compressed into the 1.520mm capsule-to-front gap",
+        "maxDepthMm": 0.1801,
+        "volumeMm3": 2.676791,
+        "budgetMm": 0.25
+      },
+      {
+        "a": "mainboard",
+        "b": "speaker_seal",
+        "verdict": "declared",
+        "kind": "compliant",
+        "reason": "Soft 0.7mm acoustic ring compressed onto speaker rim; central 8mm bore stays open",
+        "maxDepthMm": 0.1901,
+        "volumeMm3": 11.946674,
+        "budgetMm": 0.25
+      }
+    ]
+  },
+  "authority": {
+    "version": 1,
+    "algorithm": "hmac-sha256",
+    "keyId": "88d3de1b7e7a7e6433eac8affeac7163",
+    "projectId": "fce5cfe5-cd28-4d66-84c6-64ad633bbd95",
+    "receiptPath": "manufacturing/pocket/releases/export-d4c5bb4a22a5bcbc3e4de34a51d2ce87/receipt.json",
+    "payloadSha256": "14ad6e54b0f5326eb92091528076e8cf019726237ab76c0f53452a436651ea28",
+    "mac": "3ef85633c9ddc8ae8891de7841ba2c41a4a506f180232ab160b40af9c373077c"
+  },
+  "status": "handoff"
+}

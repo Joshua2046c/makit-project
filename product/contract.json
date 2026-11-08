@@ -1,0 +1,111 @@
+{
+  "version": 2,
+  "artifact_level": "assembly",
+  "deliverable_intent": "manufacturing_package",
+  "summary": "8度楔形T5 Pocket外壳：底面及跨边缘球面芝士凹洞、正侧面芝士盲凹、完整面板与紧凑对称侧口，及独立韧性卡环",
+  "required_interfaces": [
+    {
+      "id": "screen_and_board_mounting",
+      "kind": "internal_fit",
+      "description": "Original PCB and LCD fit",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "battery_compartment",
+      "kind": "internal_fit",
+      "description": "Original HAC-006 battery",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "usb_c_charge",
+      "kind": "internal_fit",
+      "description": "Original USB-C charge/debug port",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "speaker_aperture",
+      "kind": "internal_fit",
+      "description": "Lower right front speaker",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "dual_microphone_apertures",
+      "kind": "internal_fit",
+      "description": "Independent upper front microphone paths",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "snap_ring_mount",
+      "kind": "internal_fit",
+      "description": "Independent resilient circular snap ring passes through the 4mm curved corner bore; hole locations may move.",
+      "source": "user_requested",
+      "required": true
+    }
+  ],
+  "external_references": [
+    {
+      "id": "tuya_mechanical",
+      "source": "user_requested",
+      "description": "Official TuyaOpen Rev-C mechanical assembly and attachments https://oshwhub.com/tuyaopen/graffiti-t5pocket-pocket-machine",
+      "path": "product/references/vendor-mechanical/T5AI-handheld-ASM.step"
+    },
+    {
+      "id": "reference_images",
+      "source": "user_requested",
+      "description": "用户的开发板、接口图片及新增两张消费电子外观参考图",
+      "path": "product/references/uploads"
+    },
+    {
+      "id": "key_ring_3mf_reference",
+      "source": "user_requested",
+      "description": "用户上传扁平搭接开口挂环参考，3MF内附实物照片、三档尺寸及网格。",
+      "path": "product/references/uploads/20261108T090315218Z-1-key-ring.3mf"
+    }
+  ],
+  "assembly_story": {
+    "installation": "前壳安装镜片、屏幕支架及电源推键；后壳固定主板、摇杆和下沉电池；整理板背线缆后从背面螺钉闭合。向内拨开尼龙挂环的搭接舌端，错开两端后逐段穿过角部圆弧孔，复位使止退舌卡住。",
+    "maintenance": "拆背面螺钉开壳，电池可更换；前面无外露紧固螺钉。",
+    "user_access": [
+      "USB-C",
+      "MicroSD",
+      "Joystick",
+      "Buttons",
+      "Microphones",
+      "Speaker",
+      "Expansion header"
+    ]
+  },
+  "cad": {
+    "requirement": "required",
+    "designs": [
+      {
+        "role": "enclosure",
+        "design_id": "pocket",
+        "description": "134×88mm米杏色8度楔形外壳，底面及跨边缘球面芝士凹洞及向内延伸的紧凑侧口平台",
+        "delivery_target": "manufacturing_handoff",
+        "required_formats": [
+          "step"
+        ],
+        "interface_ids": [
+          "screen_and_board_mounting",
+          "battery_compartment",
+          "usb_c_charge",
+          "speaker_aperture",
+          "dual_microphone_apertures",
+          "snap_ring_mount"
+        ],
+        "reference_ids": [
+          "tuya_mechanical",
+          "reference_images",
+          "key_ring_3mf_reference"
+        ]
+      }
+    ]
+  },
+  "open_questions": []
+}

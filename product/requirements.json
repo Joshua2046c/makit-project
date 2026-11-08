@@ -1,0 +1,191 @@
+{
+  "requirements": {
+    "product_class": {
+      "value": "mechanical",
+      "source": "user"
+    },
+    "base_board": {
+      "value": "tuya/t5ai-pocket",
+      "source": "user"
+    },
+    "design_direction": {
+      "value": "米杏色与黑色面板的8°楔形机身；正面、侧壁和底面错落芝士球面盲凹，底部保留三处跨边缘凹洞；紧凑对称圆角接口及向内延伸凹台。",
+      "source": "user"
+    },
+    "interfaces": {
+      "value": [
+        "screen_and_board_mounting",
+        "battery_compartment",
+        "usb_c_charge",
+        "speaker_aperture",
+        "dual_microphone_apertures"
+      ],
+      "source": "user"
+    },
+    "pcb_size_mm": {
+      "value": [
+        116.2,
+        67.3,
+        1.2
+      ],
+      "source": "research"
+    },
+    "display": {
+      "value": "YingYao YDP290H001-V3 2.9in 168x384 reflective monochrome LCD, ST7305, 24P 0.5mm FPC",
+      "source": "research"
+    },
+    "battery": {
+      "value": "Nintendo Switch Joy-Con HAC-006 3.7V 525mAh, original connector",
+      "source": "research"
+    },
+    "screen_riser_mm": {
+      "value": 3,
+      "source": "research"
+    },
+    "manufacturing_method": {
+      "value": "11件PETG硬件结构件及键帽、1件1mm透明亚克力镜片、5件软TPU密封圈/缓冲垫；原配板、LCD、电池和摇杆不打印。新增1件SLS PA11韧性尼龙卡环，共18件制作件。",
+      "source": "default"
+    },
+    "scope": {
+      "value": "Enclosure and internal mounting; original electronics, no new PCB or firmware",
+      "source": "default"
+    },
+    "acceptance": {
+      "value": "STEP enclosure checked against official mechanical assembly; no claim of physical fit validation",
+      "source": "default"
+    },
+    "control_colours": {
+      "value": "米杏色机身及三只功能键、黑色屏幕面板；橄榄绿主功能键、复位键及电源键。摇杆保留原配件。",
+      "source": "default"
+    },
+    "case_envelope_mm": {
+      "value": {
+        "plan": [
+          134,
+          88
+        ],
+        "warm_shell_rim_thickness_nominal": [
+          17.2,
+          29.56759
+        ],
+        "including_fascia_bbox": [
+          134,
+          88,
+          30.48409
+        ],
+        "including_controls_bbox": [
+          134,
+          89.40939,
+          35.40726
+        ],
+        "slope_direction": "upper USB edge thick; lower controls edge thin"
+      },
+      "source": "default"
+    },
+    "internal_design": {
+      "value": "独立前后壳，背面四颗沉头螺钉；主板四柱固定；电池下沉4.1mm并向上移1.8mm；摇杆下沉1.1mm，以独立压框、软垫和底部承台固定；独立镜片、C形屏幕支架与导向电源键。",
+      "source": "default"
+    },
+    "interface_access": {
+      "value": "USB-C、扩展排针和TF卡口应方便连接和按压；接口凹槽只设在侧面，正面不出现接口缺口。",
+      "source": "user"
+    },
+    "middle_key_shape": {
+      "value": "round",
+      "source": "user"
+    },
+    "interface_access_strategy": {
+      "value": "保留主板和屏幕位置；采用有完整顶盖的侧向内凹接头槽，减小接口周围的壁厚和退让距离。",
+      "source": "default"
+    },
+    "wedge_angle_deg": {
+      "value": 8,
+      "source": "user"
+    },
+    "cheese_dimples": {
+      "value": "正面、侧面和底面均为错落球面芝士盲凹；底面八处圆形凹洞及之前删除的三处底部边缘凹洞恢复。",
+      "source": "user"
+    },
+    "display_window_spacing": {
+      "value": "缩小屏幕开窗一圈，增加与右侧中间圆形按钮的留白。",
+      "source": "user"
+    },
+    "display_aperture_mm": {
+      "value": [
+        70.5,
+        30.5
+      ],
+      "source": "default"
+    },
+    "bottom_decoration": {
+      "value": {
+        "kind": "spherical_cap_dimple",
+        "complete_pits": 8,
+        "partial_edge_pits": 3,
+        "restore_previous_layout": true
+      },
+      "source": "user"
+    },
+    "compact_side_interfaces": {
+      "value": "USB-C、排针、TF开口缩小，上下R角对称；凹台向内延伸，减少尤其TF口下方无用空位与电路板暴露。",
+      "source": "user"
+    },
+    "corner_curved_passage": {
+      "value": "连接图中相邻两侧圆凹，内部按标记弧线连续弯曲贯通，圆形孔道直径4mm，孔口边缘圆滑向内收。",
+      "source": "user"
+    },
+    "corner_passage_dimensions": {
+      "value": {
+        "mouth_blend_radius_mm": 0.5,
+        "corner_screw_tool_well_mm": 5.5
+      },
+      "source": "default"
+    },
+    "corner_passage_bore_mm": {
+      "value": 4,
+      "source": "user"
+    },
+    "ring_attachment": {
+      "value": "新增独立圆形卡环，依靠材料韧性弹性卡住；能够穿过4mm弧形孔道，允许调整现有孔位；卡环放在机壳旁边。",
+      "source": "user"
+    },
+    "ring_design": {
+      "value": {
+        "centreline_radius_mm": 18,
+        "radial_width_mm": 3.2,
+        "axial_thickness_mm": 2.6,
+        "outer_diameter_mm": 39.2,
+        "inner_diameter_mm": 32.8,
+        "joint": "staggered radial lap tongues with integral catch",
+        "lap_gap_mm": 0.4,
+        "minimum_rest_latch_clearance_mm": 0.25,
+        "material": "unfilled PA11 nylon, SLS",
+        "colour": "olive green",
+        "bore_mm": 4,
+        "profile_corner_radius_mm": 0.65
+      },
+      "source": "default"
+    },
+    "corner_cheese_dimple": {
+      "value": "在图示左下前壳圆角边缘增加一个与现有装饰一致的圆形盲凹。",
+      "source": "user"
+    },
+    "corner_cheese_dimple_dimensions": {
+      "value": {
+        "diameter_mm": 8,
+        "depth_mm": 1,
+        "inset_from_outer_plan_radius_mm": 1.2
+      },
+      "source": "default"
+    },
+    "ring_joint_style": {
+      "value": "按照上传key-ring.3mf的扁平圆环、错位搭接开口及一体弹性舌片结构修改挂环，仍作为独立分件放在机壳旁边。",
+      "source": "user"
+    },
+    "ring_thickness_preference": {
+      "value": "挂环在扁平搭接结构基础上加粗一点。",
+      "source": "user"
+    }
+  },
+  "open_questions": []
+}

@@ -1,0 +1,1490 @@
+{
+  "schemaVersion": 1,
+  "units": "mm",
+  "coordinateFrame": "makit-world-z-up",
+  "targets": [
+    {
+      "id": "imports",
+      "label": "imports",
+      "cells": [
+        {
+          "id": "battery",
+          "target": "imports",
+          "order": 0,
+          "path": "design/pocket/source/parts/imports/000-battery.py",
+          "sha256": "81ddb2d3d354bafc9a41aa8942dc276a254cd8ce8b7c0c04c6c5b8c47e64dae5"
+        },
+        {
+          "id": "display",
+          "target": "imports",
+          "order": 1,
+          "path": "design/pocket/source/parts/imports/001-display.py",
+          "sha256": "f64eb5e3753f661c1c1f154566d59d13a10c29cf1fb494c016ccf791658d2b40"
+        },
+        {
+          "id": "joystick",
+          "target": "imports",
+          "order": 2,
+          "path": "design/pocket/source/parts/imports/002-joystick.py",
+          "sha256": "11497c5f7b958f5770e5a4107e4942e06137412965fb17925acaf4a3b3b6f51d"
+        },
+        {
+          "id": "mainboard",
+          "target": "imports",
+          "order": 3,
+          "path": "design/pocket/source/parts/imports/003-mainboard.py",
+          "sha256": "1aff0b3d4abe867b4065f46901b3cfa88ca68bbea17572e37ab59113c33a4d8e"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "front_panel",
+      "label": "front_panel",
+      "cells": [
+        {
+          "id": "front_panel",
+          "target": "front_panel",
+          "order": 0,
+          "path": "design/pocket/source/parts/front_panel/000-front_panel.py",
+          "sha256": "150b3536a1aa166b0ffdee93bd7b91eaeba8d35c4f4b25fb7300edbf6c5b0304"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "key_a",
+      "label": "key_a",
+      "cells": [
+        {
+          "id": "key_a",
+          "target": "key_a",
+          "order": 0,
+          "path": "design/pocket/source/parts/key_a/000-key_a.py",
+          "sha256": "400bbe4a741f91469e820dbd03178e0de35a5ccc0ab13aa658e6f08849dad55b"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "key_b",
+      "label": "key_b",
+      "cells": [
+        {
+          "id": "key_b",
+          "target": "key_b",
+          "order": 0,
+          "path": "design/pocket/source/parts/key_b/000-key_b.py",
+          "sha256": "2160d1cdcde84a4e71d6c4421639a71036625ae6fe0831d6e75f002e121cc760"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "key_c",
+      "label": "key_c",
+      "cells": [
+        {
+          "id": "key_c",
+          "target": "key_c",
+          "order": 0,
+          "path": "design/pocket/source/parts/key_c/000-key_c.py",
+          "sha256": "37fcee45517c35d5d05d72cdcdd687f0a5d7c09f4f36467ebf69cd2e78407f6c"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "key_menu",
+      "label": "key_menu",
+      "cells": [
+        {
+          "id": "key_menu",
+          "target": "key_menu",
+          "order": 0,
+          "path": "design/pocket/source/parts/key_menu/000-key_menu.py",
+          "sha256": "179e4a336ab121d8d59def802a34b9f92c12ab08f65ef7e9a57a034114b2d6a9"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "key_reset",
+      "label": "key_reset",
+      "cells": [
+        {
+          "id": "key_reset",
+          "target": "key_reset",
+          "order": 0,
+          "path": "design/pocket/source/parts/key_reset/000-key_reset.py",
+          "sha256": "e6201bb78e78bcb4f2a122739d9a6e3157db2fab6cda271c24f5125394ae08ac"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "case_back",
+      "label": "case_back",
+      "cells": [
+        {
+          "id": "case_back",
+          "target": "case_back",
+          "order": 0,
+          "path": "design/pocket/source/parts/case_back/000-case_back.py",
+          "sha256": "18618570ca8717616c89975a7937adb2345a88fbf61833a983860873f8692e67"
+        }
+      ],
+      "dependencies": [
+        "front_panel",
+        "joystick_retainer"
+      ]
+    },
+    {
+      "id": "black_face",
+      "label": "black_face",
+      "cells": [
+        {
+          "id": "black_face",
+          "target": "black_face",
+          "order": 0,
+          "path": "design/pocket/source/parts/black_face/000-black_face.py",
+          "sha256": "25eb29cf4855982a590cb222c625c444105863e390991f1e83e89a066c6cf718"
+        }
+      ],
+      "dependencies": [
+        "front_panel"
+      ]
+    },
+    {
+      "id": "display_lens",
+      "label": "display_lens",
+      "cells": [
+        {
+          "id": "display_lens",
+          "target": "display_lens",
+          "order": 0,
+          "path": "design/pocket/source/parts/display_lens/000-display_lens.py",
+          "sha256": "77257c592dfecab675a9de64e21ae978038448ea0fd6ef5de22ec8a6f75df209"
+        }
+      ],
+      "dependencies": [
+        "front_panel"
+      ]
+    },
+    {
+      "id": "lcd_support",
+      "label": "lcd_support",
+      "cells": [
+        {
+          "id": "lcd_support",
+          "target": "lcd_support",
+          "order": 0,
+          "path": "design/pocket/source/parts/lcd_support/000-lcd_support.py",
+          "sha256": "726084072ae5d3563135dc9c468d5b5085d824c144a281b1e90b2880135c3009"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "power_slider",
+      "label": "power_slider",
+      "cells": [
+        {
+          "id": "power_slider",
+          "target": "power_slider",
+          "order": 0,
+          "path": "design/pocket/source/parts/power_slider/000-power_slider.py",
+          "sha256": "12591cc1793dbf8b5c26a4f177f17a7a7ec28e92501a51bc196d987a34429c5d"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "mic_seal_l",
+      "label": "mic_seal_l",
+      "cells": [
+        {
+          "id": "mic_seal_l",
+          "target": "mic_seal_l",
+          "order": 0,
+          "path": "design/pocket/source/parts/mic_seal_l/000-mic_seal_l.py",
+          "sha256": "c674eef5117403dd2b921e88a69f29351b54f381fd6402cb28785bb076dc0b14"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "mic_seal_r",
+      "label": "mic_seal_r",
+      "cells": [
+        {
+          "id": "mic_seal_r",
+          "target": "mic_seal_r",
+          "order": 0,
+          "path": "design/pocket/source/parts/mic_seal_r/000-mic_seal_r.py",
+          "sha256": "d7ad9264f126badd92c6261d7acdfc68f45945697f5b8c072a77e4a7140c8401"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "speaker_seal",
+      "label": "speaker_seal",
+      "cells": [
+        {
+          "id": "speaker_seal",
+          "target": "speaker_seal",
+          "order": 0,
+          "path": "design/pocket/source/parts/speaker_seal/000-speaker_seal.py",
+          "sha256": "c0bc8f3baa59aa8ecf434215c48b9b606b555a5bf96f7a720ebfba608d20e28b"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "joystick_retainer",
+      "label": "joystick_retainer",
+      "cells": [
+        {
+          "id": "joystick_retainer",
+          "target": "joystick_retainer",
+          "order": 0,
+          "path": "design/pocket/source/parts/joystick_retainer/000-joystick_retainer.py",
+          "sha256": "8db71781b00345b73c324874e4bca3e99eed2efb29841cf3cd9e115c7a82fe55"
+        }
+      ],
+      "dependencies": [
+        "front_panel"
+      ]
+    },
+    {
+      "id": "joy_pad_l",
+      "label": "joy_pad_l",
+      "cells": [
+        {
+          "id": "joy_pad_l",
+          "target": "joy_pad_l",
+          "order": 0,
+          "path": "design/pocket/source/parts/joy_pad_l/000-joy_pad_l.py",
+          "sha256": "edf1e53744bb46a817f0f69f52c98b0d71aa4324eea892eff90483371ff6f9de"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "joy_pad_r",
+      "label": "joy_pad_r",
+      "cells": [
+        {
+          "id": "joy_pad_r",
+          "target": "joy_pad_r",
+          "order": 0,
+          "path": "design/pocket/source/parts/joy_pad_r/000-joy_pad_r.py",
+          "sha256": "8aa326210996ef9858679c3232e486309ae9b06d7c54195f25b7cb12102f9849"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "snap_ring",
+      "label": "snap_ring",
+      "cells": [
+        {
+          "id": "snap_ring",
+          "target": "snap_ring",
+          "order": 0,
+          "path": "design/pocket/source/parts/snap_ring/000-snap_ring.py",
+          "sha256": "4ba2f24bf326171e83d903e9cd35bcf0b863957260dccb972d36aa2daa33599e"
+        }
+      ],
+      "dependencies": [
+        "case_back"
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "battery",
+      "target": "imports",
+      "label": "原配电池 · 参考件",
+      "kind": "imported",
+      "shapeHash": "e3e256493cebc7393c0eb5d3e32aaa133473025ddaed1349400fa1f10fbda00e",
+      "transform": {
+        "positionMm": [
+          -12.5236819767184,
+          -27.95068680816312,
+          9.771558743369845
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          7.951386703658792e-16,
+          -89.99999999999999
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "display",
+      "target": "imports",
+      "label": "2.9英寸LCD · 参考件",
+      "kind": "imported",
+      "shapeHash": "8ac0780801698cf671da0c9a83f72d2499c2b75ff524a3bac29e80b5c0e3d5b6",
+      "transform": {
+        "positionMm": [
+          -0.00405870167067279,
+          -0.056812911920820955,
+          22.462205929172132
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "joystick",
+      "target": "imports",
+      "label": "原配摇杆 · 参考件",
+      "kind": "imported",
+      "shapeHash": "39d65b05b14705275915bc9c604020db0f4773b54c7c809e7609bdbf3b460365",
+      "transform": {
+        "positionMm": [
+          -150.725,
+          -45.049969070315385,
+          10.049585267630556
+        ],
+        "rotationDeg": [
+          -82,
+          -3.1805546814635168e-15,
+          -90
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mainboard",
+      "target": "imports",
+      "label": "T5 Pocket 主板 · 机械参考",
+      "kind": "imported",
+      "shapeHash": "71d492fc109f8273100cdab19be852c5b0ad017e3aeacb12a60a92a52c911de0",
+      "transform": {
+        "positionMm": [
+          -73.7781252498037,
+          -51.618272258838594,
+          9.51018960935269
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "case_screw_1",
+      "target": "front_panel",
+      "label": "后壳沉头螺钉",
+      "material": "stainless_steel",
+      "role": "fastener",
+      "kind": "generated",
+      "shapeHash": "be375bfc9a37adaf2aab7a8d01ba52699d169a4de51cab0cb179e61a6c47bbe4",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          22.54089371645317
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "case_screw_2",
+      "target": "front_panel",
+      "label": "后壳沉头螺钉",
+      "material": "stainless_steel",
+      "role": "fastener",
+      "kind": "generated",
+      "shapeHash": "5e9b4d6caa73ff1d6a7b472c4953e855b37a265ec51a78d23b6ee3b861e8e174",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          22.54089371645317
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "case_screw_3",
+      "target": "front_panel",
+      "label": "后壳沉头螺钉",
+      "material": "stainless_steel",
+      "role": "fastener",
+      "kind": "generated",
+      "shapeHash": "0bdc881c7d6d130d1c64011bf7456ceb97d21e8c956eba17458e7ca609e53d68",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          22.54089371645317
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "case_screw_4",
+      "target": "front_panel",
+      "label": "后壳沉头螺钉",
+      "material": "stainless_steel",
+      "role": "fastener",
+      "kind": "generated",
+      "shapeHash": "4e8dc7bf6d046c41c54f78912a093b1577e42d300ae5a4d04c89b98d30db12dc",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          22.54089371645317
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "front_panel",
+      "target": "front_panel",
+      "label": "米杏色结构前壳",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "6e421aade22ecdb39d2e882f5d813e944c4142605c0b6a88d054fb2f38da85f8",
+      "transform": {
+        "positionMm": [
+          -1.1368409883593,
+          -7.598490319120921,
+          6.123616442242877
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "key_a",
+      "target": "key_a",
+      "label": "上功能键",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "5f20fe50d9ab6d8a468863f32b52210ca203b0c4bf611907d7776621fab59df6",
+      "transform": {
+        "positionMm": [
+          49.7881815828,
+          4.192349873626817,
+          25.95760727010928
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "key_b",
+      "target": "key_b",
+      "label": "圆形功能键",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "64316541ddf93c1e210c3ba1382485825a7027f3d7100f25022bc4f50f4b35cd",
+      "transform": {
+        "positionMm": [
+          40.5881612628,
+          -5.1142080494850815,
+          24.649655851388978
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "key_c",
+      "target": "key_c",
+      "label": "绿色主功能键",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "5a17d2e330490b3c31e8263b2e93473d8df43424b3ac589926904581c8955046",
+      "transform": {
+        "positionMm": [
+          49.3403659871763,
+          -15.838632648677962,
+          23.14243626651555
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "key_menu",
+      "target": "key_menu",
+      "label": "菜单键",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "e95e11af76ee89a507d23bb05f8632bda15c13fd0cee7dcb4b2c32337a0e7433",
+      "transform": {
+        "positionMm": [
+          -40.5040587016707,
+          -36.07737778841636,
+          20.298066131247747
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "key_reset",
+      "target": "key_reset",
+      "label": "复位键",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "73604efcd0aedbfabde0263c5565f1d709820569c2e16e51942d455d62817c25",
+      "transform": {
+        "positionMm": [
+          -49.2670762277057,
+          -35.95161349215808,
+          20.315741150419644
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "case_back",
+      "target": "case_back",
+      "label": "独立电池槽后壳",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "38b3f23d4b9c963537185cb706a944a330e2553f3fdade9ba52418d30b060b1d",
+      "transform": {
+        "positionMm": [
+          -1.1368409883593,
+          -7.598490319120921,
+          6.123616442242877
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "pcb_screw_1",
+      "target": "case_back",
+      "label": "主板固定螺钉",
+      "material": "stainless_steel",
+      "role": "fastener",
+      "kind": "generated",
+      "shapeHash": "65ff3a29a786e96936638265d5a0957b67fb442f468e476da82387a866dabff6",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          22.54089371645317
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "pcb_screw_2",
+      "target": "case_back",
+      "label": "主板固定螺钉",
+      "material": "stainless_steel",
+      "role": "fastener",
+      "kind": "generated",
+      "shapeHash": "29800ec5f91653de983e00138b4c8fbb20c76d30ae3c5e9553f9cd83203f0758",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          22.54089371645317
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "pcb_screw_3",
+      "target": "case_back",
+      "label": "主板固定螺钉",
+      "material": "stainless_steel",
+      "role": "fastener",
+      "kind": "generated",
+      "shapeHash": "8f0d281c212eb7b3d9d0d77cfecbb4ca9613a1195b63f7ffc1ee9dfebde6b730",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          22.54089371645317
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "pcb_screw_4",
+      "target": "case_back",
+      "label": "主板固定螺钉",
+      "material": "stainless_steel",
+      "role": "fastener",
+      "kind": "generated",
+      "shapeHash": "f5dc70bdb0aa9c3b613ff9cb80622d149b1469960a6c57afbb30cbe5577660ff",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          22.54089371645317
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "black_face",
+      "target": "black_face",
+      "label": "黑色屏幕面板",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "29e953aa03b3c66e53db84a98a8a991093ee11adca65521b1cc5c8d3c92200fc",
+      "transform": {
+        "positionMm": [
+          -1.1368409883593,
+          3.6827260730461506,
+          25.07812225777657
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "display_lens",
+      "target": "display_lens",
+      "label": "透明保护镜片",
+      "material": "acrylic",
+      "kind": "generated",
+      "shapeHash": "0b55a29ae1c378678f23fd075171427073b4769e69561c4ccf954528d04a30c3",
+      "transform": {
+        "positionMm": [
+          -0.00405870167067,
+          -0.20573024176319088,
+          23.521807789070863
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "lcd_support",
+      "target": "lcd_support",
+      "label": "屏幕C形支架",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "86a801716c55fce71c8c269459fc6d8d77bc661a26be268318bced0eb97f8b37",
+      "transform": {
+        "positionMm": [
+          0,
+          0.6193202992722914,
+          18.134200810553182
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "power_slider",
+      "target": "power_slider",
+      "label": "导向电源推键",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "db78f86b4764e22713b2f54cecc32e74c8fa53da6eaf2107933d0af91007600b",
+      "transform": {
+        "positionMm": [
+          -43.4545743227,
+          24.041568579313598,
+          22.48630208558139
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mic_seal_l",
+      "target": "mic_seal_l",
+      "label": "左麦克风密封圈",
+      "material": "tpu",
+      "kind": "generated",
+      "shapeHash": "4c228f148e3f942dcc3ed5e20b9150fe95a6a6027bf357962080890e199e607f",
+      "transform": {
+        "positionMm": [
+          -29.5431468217,
+          19.888705368186784,
+          23.619362096766423
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mic_seal_r",
+      "target": "mic_seal_r",
+      "label": "右麦克风密封圈",
+      "material": "tpu",
+      "kind": "generated",
+      "shapeHash": "64362c049f0437f74909a0c1ddf6863258a4a90974cb6ad27cc40f03d2baffdd",
+      "transform": {
+        "positionMm": [
+          27.4095506274,
+          19.867076435689402,
+          23.61632234853952
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "speaker_seal",
+      "target": "speaker_seal",
+      "label": "扬声器声道密封圈",
+      "material": "tpu",
+      "kind": "generated",
+      "shapeHash": "3f6055346e43447164a704180c97fcc7fe0fdad1c169168c0de13311b6fa7f39",
+      "transform": {
+        "positionMm": [
+          48.7231155427,
+          -27.968955581758586,
+          17.903234052475675
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "joystick_retainer",
+      "target": "joystick_retainer",
+      "label": "摇杆独立压框",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "2fe4a530bdf97525c78a624cba87215084780cd7668114d3a1d301e52b8a03ea",
+      "transform": {
+        "positionMm": [
+          -1.1368409883593,
+          -7.598490319120921,
+          6.123616442242877
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "retainer_screw_1",
+      "target": "joystick_retainer",
+      "label": "摇杆压框沉头螺钉",
+      "material": "stainless_steel",
+      "role": "fastener",
+      "kind": "generated",
+      "shapeHash": "7259a895b27adf2ea50b29b9dae49ba09722145d2a97a858ed38f3d05cfd9fd6",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          22.54089371645317
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "retainer_screw_2",
+      "target": "joystick_retainer",
+      "label": "摇杆压框沉头螺钉",
+      "material": "stainless_steel",
+      "role": "fastener",
+      "kind": "generated",
+      "shapeHash": "8f8163a4ff3bf6c19db13cba8e11f270fe18c9f0618594b3f9b9c233a0daceec",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          22.54089371645317
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "joy_pad_l",
+      "target": "joy_pad_l",
+      "label": "摇杆耳位软垫",
+      "material": "tpu",
+      "kind": "generated",
+      "shapeHash": "eed69cd637b3882a239dd1836e21c92dbe5d14d16b3eca4e1f5bb15e239bdfcb",
+      "transform": {
+        "positionMm": [
+          -56.475,
+          10.349908301809803,
+          20.031905246147154
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "joy_pad_r",
+      "target": "joy_pad_r",
+      "label": "摇杆耳位软垫",
+      "material": "tpu",
+      "kind": "generated",
+      "shapeHash": "b863f0b37e0eb9b62b84bdf9efd7244a765778bdc6338cedf2f2e0e7ccf94965",
+      "transform": {
+        "positionMm": [
+          -38.575,
+          -5.692434411803636,
+          17.777301010594094
+        ],
+        "rotationDeg": [
+          8.000000000000002,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "snap_ring",
+      "target": "snap_ring",
+      "label": "PA11扁平搭接挂环",
+      "material": "nylon",
+      "kind": "generated",
+      "shapeHash": "7c7456174f671eeae1ed7345ca87903f7bfbe9794c5780fa7d773dbb38447478",
+      "transform": {
+        "positionMm": [
+          100,
+          -15,
+          1.3
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    }
+  ],
+  "assets": [
+    {
+      "id": "battery",
+      "kind": "step",
+      "path": "design/pocket/source/assets/d2e82b8e2bccd66797c447dddf7c740ae062bf674884187bd902e3c28169cc8d.step",
+      "sha256": "d2e82b8e2bccd66797c447dddf7c740ae062bf674884187bd902e3c28169cc8d",
+      "label": "原配电池 · 参考件",
+      "provenance": {
+        "sourcePath": "product/references/vendor-mechanical/battery.step"
+      }
+    },
+    {
+      "id": "display",
+      "kind": "step",
+      "path": "design/pocket/source/assets/e693c4174ed0ae3c8d42638ab365bbeae3c341ac3f581235c9ad46e39018eee6.step",
+      "sha256": "e693c4174ed0ae3c8d42638ab365bbeae3c341ac3f581235c9ad46e39018eee6",
+      "label": "2.9英寸LCD · 参考件",
+      "provenance": {
+        "sourcePath": "product/references/vendor-mechanical/display.step"
+      }
+    },
+    {
+      "id": "joystick",
+      "kind": "step",
+      "path": "design/pocket/source/assets/f2cc66c38d4aa91f9d587cdfef6a2b50491d38117eb2db6cf510732895c8e409.step",
+      "sha256": "f2cc66c38d4aa91f9d587cdfef6a2b50491d38117eb2db6cf510732895c8e409",
+      "label": "原配摇杆 · 参考件",
+      "provenance": {
+        "sourcePath": "product/references/vendor-mechanical/joystick.step"
+      }
+    },
+    {
+      "id": "mainboard",
+      "kind": "step",
+      "path": "design/pocket/source/assets/53d7209ca18c5d4aa690723ef7e639b336ca0cfdc735c3f48faaba731ad1a133.step",
+      "sha256": "53d7209ca18c5d4aa690723ef7e639b336ca0cfdc735c3f48faaba731ad1a133",
+      "label": "T5 Pocket 主板 · 机械参考",
+      "provenance": {
+        "sourcePath": "product/references/vendor-mechanical/mainboard-mechanical.step"
+      }
+    }
+  ],
+  "fits": [
+    {
+      "kind": "nominal_contact",
+      "budget_mm": 0.2,
+      "reason": "Lowered OEM joystick flex now mates to CN2 beneath the PCB; overlap is confined to the connector",
+      "a": "joystick",
+      "b": "mainboard"
+    },
+    {
+      "kind": "compliant",
+      "budget_mm": 0.15,
+      "reason": "0.4mm TPU washer compressed into 0.3mm retainer gap on the flat mounting ear",
+      "a": "joy_pad_l",
+      "b": "joystick"
+    },
+    {
+      "kind": "compliant",
+      "budget_mm": 0.15,
+      "reason": "0.4mm TPU washer compressed into 0.3mm retainer gap on the flat mounting ear",
+      "a": "joy_pad_r",
+      "b": "joystick"
+    },
+    {
+      "kind": "press_fit",
+      "budget_mm": 0.15,
+      "reason": "Prototype PETG cap socket on the original switch stem; calibrate the print before assembly",
+      "a": "key_a",
+      "b": "mainboard"
+    },
+    {
+      "kind": "press_fit",
+      "budget_mm": 0.15,
+      "reason": "Prototype PETG cap socket on the original switch stem; calibrate the print before assembly",
+      "a": "key_b",
+      "b": "mainboard"
+    },
+    {
+      "kind": "press_fit",
+      "budget_mm": 0.15,
+      "reason": "Prototype PETG cap socket on the original switch stem; calibrate the print before assembly",
+      "a": "key_c",
+      "b": "mainboard"
+    },
+    {
+      "kind": "press_fit",
+      "budget_mm": 0.15,
+      "reason": "Prototype PETG cap socket on the original switch stem; calibrate the print before assembly",
+      "a": "key_menu",
+      "b": "mainboard"
+    },
+    {
+      "kind": "press_fit",
+      "budget_mm": 0.15,
+      "reason": "Prototype PETG cap socket on the original switch stem; calibrate the print before assembly",
+      "a": "key_reset",
+      "b": "mainboard"
+    },
+    {
+      "kind": "nominal_contact",
+      "budget_mm": 0.15,
+      "reason": "OEM LCD flexible tail seated in FPC1 connector; glass and PCB bodies do not intersect",
+      "a": "display",
+      "b": "mainboard"
+    },
+    {
+      "kind": "compliant",
+      "budget_mm": 0.25,
+      "reason": "Individual microphone duct: 1.7mm free height compressed into the 1.520mm capsule-to-front gap",
+      "a": "mic_seal_l",
+      "b": "mainboard"
+    },
+    {
+      "kind": "compliant",
+      "budget_mm": 0.25,
+      "reason": "Individual microphone duct: 1.7mm free height compressed into the 1.520mm capsule-to-front gap",
+      "a": "mic_seal_r",
+      "b": "mainboard"
+    },
+    {
+      "kind": "compliant",
+      "budget_mm": 0.25,
+      "reason": "Soft 0.7mm acoustic ring compressed onto speaker rim; central 8mm bore stays open",
+      "a": "speaker_seal",
+      "b": "mainboard"
+    }
+  ],
+  "updatedAt": "2026-11-08T09:15:59.995Z",
+  "parameters": {
+    "imports": {},
+    "front_panel": {
+      "front_width_mm": 134,
+      "front_height_mm": 88,
+      "front_thickness_mm": 2,
+      "front_corner_radius_mm": 9,
+      "wall_thickness_mm": 2.4,
+      "body_depth_mm": 17.2,
+      "rear_depth_mm": 6.5,
+      "seam_shadow_mm": 0.35,
+      "rear_floor_mm": 2.4,
+      "display_aperture_width_mm": 70.5,
+      "display_aperture_height_mm": 30.5,
+      "lens_width_mm": 77,
+      "lens_height_mm": 39,
+      "lens_thickness_mm": 1,
+      "lens_edge_clearance_mm": 0.2,
+      "black_face_width_mm": 122,
+      "black_face_height_mm": 54,
+      "black_face_thickness_mm": 1,
+      "joystick_clearance_mm": 17.4,
+      "microphone_port_mm": 2.4,
+      "speaker_slot_width_mm": 1.4,
+      "usb_well_width_mm": 14,
+      "usb_well_height_mm": 7,
+      "sd_opening_width_mm": 19.5,
+      "sd_opening_height_mm": 5.8,
+      "power_slot_width_mm": 10.2,
+      "power_slot_height_mm": 3,
+      "case_screw_engagement_mm": 3.6,
+      "closure_receiver_post_mm": 6,
+      "middle_key_hole_mm": 7.2,
+      "wedge_angle_deg": 8,
+      "wedge_edge_chamfer_mm": 0.6,
+      "cheese_size_scale": 1,
+      "cheese_front_depth_scale": 1,
+      "cheese_side_depth_scale": 1,
+      "cheese_back_depth_scale": 1,
+      "cheese_front_remaining_mm": 1.6,
+      "port_return_wall_mm": 1.4,
+      "usb_mouth_width_mm": 16,
+      "usb_mouth_height_mm": 7,
+      "usb_mouth_radius_mm": 1.5,
+      "header_mouth_width_mm": 29.5,
+      "header_mouth_height_mm": 5.2,
+      "header_throat_width_mm": 27.6,
+      "header_throat_height_mm": 4.2,
+      "header_mouth_radius_mm": 1.3,
+      "tf_mouth_width_mm": 20.5,
+      "tf_mouth_height_mm": 8,
+      "tf_mouth_radius_mm": 1.8,
+      "tf_recess_centre_y_mm": -21,
+      "tf_retainer_relief_mm": 0.3,
+      "usb_throat_axial_relief_mm": 0.6,
+      "corner_cheese_diameter_mm": 8,
+      "corner_cheese_depth_mm": 1,
+      "corner_cheese_plan_inset_mm": 1.2
+    },
+    "key_a": {
+      "key_a_diameter_mm": 8,
+      "key_a_height_mm": 2.4,
+      "key_a_socket_diameter_mm": 2.98,
+      "key_a_socket_depth_mm": 0.9,
+      "key_a_edge_radius_mm": 0.45
+    },
+    "key_b": {
+      "key_b_diameter_mm": 6.6,
+      "key_b_height_mm": 2.4,
+      "key_b_socket_diameter_mm": 2.98,
+      "key_b_socket_depth_mm": 0.9,
+      "key_b_edge_radius_mm": 0.45
+    },
+    "key_c": {
+      "key_c_diameter_mm": 10.5,
+      "key_c_height_mm": 2.4,
+      "key_c_socket_diameter_mm": 2.98,
+      "key_c_socket_depth_mm": 0.9,
+      "key_c_edge_radius_mm": 0.45
+    },
+    "key_menu": {
+      "key_menu_diameter_mm": 6.6,
+      "key_menu_height_mm": 2.4,
+      "key_menu_socket_diameter_mm": 2.98,
+      "key_menu_socket_depth_mm": 0.9,
+      "key_menu_edge_radius_mm": 0.45
+    },
+    "key_reset": {
+      "key_reset_diameter_mm": 6.6,
+      "key_reset_height_mm": 2.4,
+      "key_reset_socket_diameter_mm": 2.98,
+      "key_reset_socket_depth_mm": 0.9,
+      "key_reset_edge_radius_mm": 0.45
+    },
+    "case_back": {
+      "rear_post_clearance_mm": 0.3,
+      "battery_side_clearance_mm": 0.5,
+      "battery_guide_wall_mm": 1.2,
+      "battery_guide_height_mm": 3.1,
+      "battery_foam_tape_mm": 0.5,
+      "pcb_screw_engagement_mm": 3.6,
+      "closure_tool_well_diameter_mm": 8,
+      "curved_bore_diameter_mm": 4,
+      "curved_bore_lip_radius_mm": 0.5,
+      "curved_bore_tool_access_mm": 5.5,
+      "ring_passage_radius_mm": 18,
+      "ring_passage_plane_z_mm": -18.5,
+      "ring_passage_overrun_deg": 10,
+      "bottom_cheese_depth_scale": 1
+    },
+    "black_face": {
+      "black_face_corner_mm": 3.3,
+      "bezel_cheese_depth_scale": 1
+    },
+    "display_lens": {
+      "lens_corner_radius_mm": 2
+    },
+    "lcd_support": {
+      "lcd_support_height_mm": 3,
+      "lcd_support_edge_mm": 0.6
+    },
+    "power_slider": {
+      "power_key_height_mm": 2.4,
+      "power_key_width_mm": 13.1,
+      "power_key_arm_mm": 1.3,
+      "power_key_arm_length_mm": 13,
+      "power_key_tab_width_mm": 9.6,
+      "power_key_tab_length_mm": 4.6,
+      "power_key_tip_width_mm": 2,
+      "power_key_tip_reach_mm": 4.6
+    },
+    "mic_seal_l": {
+      "mic_seal_l_outer_diameter_mm": 8,
+      "mic_seal_l_bore_diameter_mm": 3.2,
+      "mic_seal_l_free_height_mm": 1.7
+    },
+    "mic_seal_r": {
+      "mic_seal_r_outer_diameter_mm": 8,
+      "mic_seal_r_bore_diameter_mm": 3.2,
+      "mic_seal_r_free_height_mm": 1.7
+    },
+    "speaker_seal": {
+      "speaker_seal_outer_diameter_mm": 12,
+      "speaker_seal_bore_diameter_mm": 8,
+      "speaker_seal_free_height_mm": 0.7
+    },
+    "joystick_retainer": {
+      "retainer_width_mm": 29,
+      "retainer_height_mm": 24.4,
+      "retainer_thickness_mm": 2,
+      "retainer_body_clearance_width_mm": 19.8,
+      "retainer_body_clearance_height_mm": 17.8,
+      "retainer_screw_engagement_mm": 3.5,
+      "retainer_pad_compressed_gap_mm": 0.3
+    },
+    "joy_pad_l": {
+      "joy_pad_l_outer_mm": 2.6,
+      "joy_pad_l_inner_mm": 1.7,
+      "joy_pad_l_height_mm": 0.4
+    },
+    "joy_pad_r": {
+      "joy_pad_r_outer_mm": 2.6,
+      "joy_pad_r_inner_mm": 1.7,
+      "joy_pad_r_height_mm": 0.4
+    },
+    "snap_ring": {
+      "lap_ring_radial_width_mm": 3.2,
+      "lap_ring_thickness_mm": 2.6,
+      "lap_ring_edge_radius_mm": 0.65,
+      "lap_ring_tongue_gap_mm": 0.4,
+      "lap_ring_joint_sector_deg": 40,
+      "lap_ring_tip_angle_deg": 18.8,
+      "lap_ring_root_overlap_deg": 0.5,
+      "lap_ring_face_groove_width_mm": 0.35,
+      "lap_ring_face_groove_depth_mm": 0.25,
+      "lap_ring_hook_angle_deg": -10,
+      "lap_ring_hook_outer_offset_mm": 0.45,
+      "lap_ring_hook_root_offset_mm": 0.55,
+      "lap_ring_hook_length_mm": 1.35,
+      "lap_ring_hook_ramp_mm": 0.5,
+      "lap_ring_keeper_clearance_mm": 0.25,
+      "lap_ring_hook_edge_radius_mm": 0.12
+    }
+  }
+}

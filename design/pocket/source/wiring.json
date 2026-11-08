@@ -1,0 +1,12 @@
+{
+  "parts": [
+    {
+      "ref": "mainboard",
+      "platform": "tuya/t5ai-pocket",
+      "quantity": 1
+    }
+  ],
+  "connections": [],
+  "power": [],
+  "schema_version": 1
+}

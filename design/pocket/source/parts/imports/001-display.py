@@ -1,0 +1,1 @@
+publish("display", asset("design/pocket/source/assets/e693c4174ed0ae3c8d42638ab365bbeae3c341ac3f581235c9ad46e39018eee6.step"), "2.9英寸LCD · 参考件")

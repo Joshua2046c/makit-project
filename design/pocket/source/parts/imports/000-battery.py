@@ -1,0 +1,1 @@
+publish("battery", asset("design/pocket/source/assets/d2e82b8e2bccd66797c447dddf7c740ae062bf674884187bd902e3c28169cc8d.step"), "原配电池 · 参考件")

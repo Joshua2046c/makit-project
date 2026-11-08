@@ -1,0 +1,7 @@
+outer_d=param("mic_seal_r_outer_diameter_mm",8.0)
+inner_d=param("mic_seal_r_bore_diameter_mm",3.2)
+height=param("mic_seal_r_free_height_mm",1.7)
+seal=Cylinder(outer_d/2,height,align=(Align.CENTER,Align.CENTER,Align.MIN))-Cylinder(inner_d/2,height,align=(Align.CENTER,Align.CENTER,Align.MIN))
+seal.color=srgb("#262829")
+publish("mic_seal_r",seal,"右麦克风密封圈",material="tpu")
+fit("mic_seal_r","mainboard",kind="compliant",budget_mm=0.25,reason="Individual microphone duct: 1.7mm free height compressed into the 1.520mm capsule-to-front gap")
